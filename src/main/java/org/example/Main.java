@@ -17,17 +17,14 @@ public class Main {
         Map<String, Integer> schoolCountMap = schoolFinder.findValidSchool();
         FileWriter fileWriter = new FileWriter("result.txt");
 
-        int findedSum = 0;
+        int sum = 0;
         for (Map.Entry<String, Integer> entry : schoolCountMap.entrySet()) {
             fileWriter.write(entry.getKey() + "\t" + entry.getValue() + "\n");
-            if (!entry.getKey().equals("알수없음")) {
-                findedSum += entry.getValue();
-            }
+            sum += entry.getValue();
         }
 
         fileWriter.close();
-        log.info("발견된 학교 수: {}개", findedSum);
-        log.info("미발견 데이터: {}개", schoolCountMap.get("알수없음"));
-        log.info("==========학교 검색 종료==========");
+        log.info("유효한 학교 수: {}", sum);
+        log.info("==========학교 검색 종료==========\n\n");
     }
 }

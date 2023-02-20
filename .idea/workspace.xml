@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d050bd-e99d-47bc-b0a0-f3744774c8a1" name="Changes" comment="문자열 정규화">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="b7d050bd-e99d-47bc-b0a0-f3744774c8a1" name="Changes" comment="로그 작업 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.log" beforeDir="false" afterPath="$PROJECT_DIR$/result.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/전국초중고대데이터.csv" beforeDir="false" afterPath="$PROJECT_DIR$/전국초중고대데이터.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,8 @@
       <workItem from="1676695279004" duration="30506000" />
       <workItem from="1676777745318" duration="9570000" />
       <workItem from="1676807173311" duration="10343000" />
-      <workItem from="1676851992564" duration="12538000" />
+      <workItem from="1676851992564" duration="20921000" />
+      <workItem from="1676879517739" duration="3241000" />
     </task>
     <task id="LOCAL-00001" summary="문자열 정규화">
       <created>1676730426228</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676730426228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="로그 작업 완료">
+      <created>1676868638224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676868638224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="문자열 정규화" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열 정규화" />
+    <MESSAGE value="로그 작업 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그 작업 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -139,11 +148,6 @@
           <properties class="org.gradle.api.tasks.TaskExecutionException" package="org.gradle.api.tasks" />
           <option name="timeStamp" value="18" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
