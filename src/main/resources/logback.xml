@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS} %-5level --- [%thread] %logger[%method:%line] - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>result.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy/MM/dd HH:mm:ss.SSS} %-5level --- [%thread] %logger[%method:%line] - %msg %n</Pattern>
+        </encoder>
+
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>result.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}][%-5level] --- [%thread] %logger[%method:%line] - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="org.example" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE" />
+    </logger>
+
+
+    <root level="warn">
+        <appender-ref ref="consoleAppender" />
+    </root>
+
+</configuration>
