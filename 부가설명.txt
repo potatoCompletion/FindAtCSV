@@ -1,0 +1,6 @@
+<데이터자료 출처>
+전국초중등학교기본정보표준데이터 - https://www.data.go.kr/data/15107734/standard.do (전국 초,중,고 목록)
+전국대학및전문대학정보표준데이터 - https://www.data.go.kr/data/15107736/standard.do (전국 대학 목록)
+행정구역자료 - https://godpeople.or.kr/mopds/5245740 (행정구역(시,군) 데이터)
+
+위 세가지 자료들을 토대로 필요한 데이터만 걸러서 사용했습니다.

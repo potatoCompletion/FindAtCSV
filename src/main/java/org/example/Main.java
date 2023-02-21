@@ -14,7 +14,8 @@ public class Main {
 
         log.info("==========학교 검색 시작==========");
         SchoolFinder schoolFinder = new SchoolFinder("comments.csv",
-                "전국초중고대데이터.csv");
+                "전국초중고대데이터.csv",
+                "전국행정구역데이터(시,군).csv");
         Map<String, Integer> schoolCountMap = schoolFinder.findValidSchool();
         FileWriter fileWriter = new FileWriter("result.txt");
 

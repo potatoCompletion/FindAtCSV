@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d050bd-e99d-47bc-b0a0-f3744774c8a1" name="Changes" comment="find 로직 변경">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/School.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.log" beforeDir="false" afterPath="$PROJECT_DIR$/result.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/School.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/전국초중고대데이터.csv" beforeDir="false" afterPath="$PROJECT_DIR$/전국초중고대데이터.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/전국행정구역데이터(도,시,군).csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +163,11 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="38" />
+          <line>242</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

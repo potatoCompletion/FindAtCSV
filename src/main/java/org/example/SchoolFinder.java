@@ -12,37 +12,29 @@ import java.util.*;
 
 public class SchoolFinder {
     private static final Logger log = LoggerFactory.getLogger(SchoolFinder.class);
-    private final List<String[]> originSchoolLines;
     private final List<String[]> sourceFileLines;
     private final List<School> schools;
     private final List<School> filteredSchools;
-    List<String> addressList;
-    private final List<String> originSchoolList;
-    private final List<String> filteredSchoolList;
-    private int howMany = 0;
+    private final List<String> addressList;
 
-    public SchoolFinder(String sourceFilePath, String schoolDataFilePath) throws IOException, CsvException {
-
-        CSVReader schoolsCsvReader = new CSVReader(new FileReader(schoolDataFilePath));
+    public SchoolFinder(String sourceFilePath, String schoolDataFilePath, String locationDataFilePath) throws IOException, CsvException {
+        // 소스파일 세팅 (comments.csv)
         CSVReader sourceFileCsvReader = new CSVReader(new FileReader(sourceFilePath));
-
-        originSchoolLines = schoolsCsvReader.readAll();
         sourceFileLines = sourceFileCsvReader.readAll();
 
-        originSchoolList = stringArrayListToListOrderBy(originSchoolLines);    // 전국 학교 정식명칭 리스트
-        filteredSchoolList = getFilteredSchoolList(originSchoolList);   // 전국 학교 약어 리스트 (ex: 강릉초등학교 -> 강릉초)
-
+        // 학교데이터 세팅 (전국초중고대데이터.csv)
         schools = new CsvToBeanBuilder<School>(new FileReader(schoolDataFilePath))
                 .withType(School.class)
                 .build()
                 .parse();
         Comparator<School> desc = (s1, s2) -> Integer.compare(s2.getName().length(), s1.getName().length());
         schools.sort(desc);
-        filteredSchools = getFilteredSchools(schools);
+        filteredSchools = getFilteredSchools(schools);  // 약어를 사용한 댓글들을 검출하기 위한 기준 학교 데이터
 
-        CSVReader addressDataCsvReader = new CSVReader(new FileReader("전국행정구역데이터(도,시,군).csv"));
+        // 시, 군 데이터 세팅 (전국행정구역데이터(시,군).csv)
+        CSVReader addressDataCsvReader = new CSVReader(new FileReader(locationDataFilePath));
         List<String[]> addressData = addressDataCsvReader.readAll();
-        addressList = stringArrayListToListOrderBy(addressData);
+        addressList = stringArrayListToList(addressData);
     }
 
     public Map<String, Integer> findValidSchool() {
@@ -52,47 +44,35 @@ public class SchoolFinder {
 
         int firstFilteredCount = 0;
         int secondFilteredCount = 0;
-        int thirdFilteredCount = 0;
         int cannotFoundCount = 0;
         Map<String, Integer> schoolCountMap = new HashMap<>();
 
         for (String[] line : sourceFileLines) {
             String filteredLine;
-            List<String> findedSchoolList;
+            String foundSchool;
 
-            // 1차 필터링 (공백제거)
-//            filteredLine = String.join("", line)
-//                    .replace(" ", "");
-//            if (filteredLine.contains("동국대학교")) {
-//                var a = 1;
-//            }
-//            findedSchoolList = filteringSchool(filteredLine, schools);
-//            if (!findedSchoolList.isEmpty()) {
-//                for (String school : findedSchoolList) {
-//                    schoolCountMap.merge(school, 1, Integer::sum);
-//                }
-//
-//                firstFilteredCount += findedSchoolList.size();
-//                continue;
-//            }
-
-            // 2차 필터링 (한글 제외한 모든 문자제거)
+            // 1차 필터링 (한글 제외한 모든 문자제거)
             filteredLine = String.join("", line)
                     .replaceAll("[^ㄱ-ㅎㅏ-ㅣ가-힣]", "");
-            findedSchoolList = filteringSchool(filteredLine, schools);
-            if (!findedSchoolList.isEmpty()) {
-                for (String school : findedSchoolList) {
-                    schoolCountMap.merge(school, 1, Integer::sum);
-                }
 
-                secondFilteredCount += findedSchoolList.size();
-                continue;
+            if (!filteredLine.contains("대학교")) {    // 사대부고, 사대부중 필터링을 위한 검증
+                foundSchool = filteringSchool(filteredLine, schools);
+                if (!foundSchool.isBlank()) {
+                    foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
+                }
+                if (!foundSchool.isBlank()) {
+                    schoolCountMap.merge(foundSchool, 1, Integer::sum);
+
+                    firstFilteredCount++;
+                    continue;
+                }
             }
 
-            // 3차 필터링 (OO초, OO중, OO고, OO대와 같은 약어 표현)
+
+            // 2차 필터링 (OO초, OO중, OO고, OO대와 같은 약어)
             filteredLine = String.join("", line)
                     .replaceAll("[^ㄱ-ㅎㅏ-ㅣ가-힣]", "")
-                    .replace("등학교", "")  // OO초, OO중, OO고, OO대 라고 입력한 데이터 또한 유효한 문자열로 인식하기 위한 작업
+                    .replace("등학교", "")
                     .replace("중학교", "중")
                     .replace("대학교", "대")
                     .replace("대학", "대")
@@ -106,13 +86,15 @@ public class SchoolFinder {
                     .replace("사대부고", "부속고")
                     .replace("여대", "여자대");
 
-            findedSchoolList = filteringSchool(filteredLine, filteredSchools);
-            if (!findedSchoolList.isEmpty()) {
-                for (String school : findedSchoolList) {
-                    schoolCountMap.merge(school, 1, Integer::sum);
-                }
+            foundSchool = filteringSchool(filteredLine, filteredSchools);
+            if (!foundSchool.isBlank()) {
+                foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
+            }
+            if (!foundSchool.isBlank()) {
+                schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
-                thirdFilteredCount += findedSchoolList.size();
+                log.info("약어에서 발견: {}\n\n{}", foundSchool, line);
+                secondFilteredCount++;
                 continue;
             }
 
@@ -121,35 +103,17 @@ public class SchoolFinder {
         }
 
         log.info("==========모든 필터링 종료==========");
-        log.info("1차 필터(공백제거) 발견 학교 수: {}개", firstFilteredCount);
-        log.info("2차 필터(한글제외 모든 문자제거) 발견 학교 수: {}개", secondFilteredCount);
-        log.info("3차 필터(약어) 발견 학교 수: {}개", thirdFilteredCount);
+        log.info("1차 필터(한글제외 모든 문자제거) 발견 학교 수: {}개", firstFilteredCount);
+        log.info("2차 필터(약어) 발견 학교 수: {}개", secondFilteredCount);
         log.info("발견된 학교 수: {}개, 알수없는 라인: {}개",
-                firstFilteredCount + secondFilteredCount + thirdFilteredCount,
+                firstFilteredCount + secondFilteredCount,
                 cannotFoundCount);
-        log.info("총 연산 수: {}번", howMany);
 
         return schoolCountMap;
     }
 
-    private List<String> getFilteredSchoolList(List<String> originSchoolList) {
-        // 전국 학교 데이터를 약어로 변경 (ex: 삼척고등학교 -> 삼척고)
-        List<String> filteredList = new ArrayList<>();
-
-        for (String line : originSchoolList) {
-            filteredList.add(line
-                    .replace(" ", "")
-                    .replace("등학교", "")
-                    .replace("중학교", "중")
-                    .replace("대학교", "대")
-                    .replace("대학", "대")
-                    .replace("사범대", ""));
-        }
-
-        return filteredList;
-    }
-
     private List<School> getFilteredSchools(List<School> originSchools) {
+        // 전국 학교 데이터를 약어로 변경 (ex: 삼척고등학교 -> 삼척고)
         List<School> filteredSchools = new ArrayList<>();
         String filteredName;
 
@@ -168,7 +132,7 @@ public class SchoolFinder {
         return filteredSchools;
     }
 
-    private List<String> stringArrayListToListOrderBy(List<String[]> stringArrayList) {
+    private List<String> stringArrayListToList(List<String[]> stringArrayList) {
 
         List<String> list = new ArrayList<>();
         for (String[] stringArray : stringArrayList) {
@@ -183,63 +147,105 @@ public class SchoolFinder {
         return list;
     }
 
-    private List<String> filteringSchool(String line, List<School> schoolList) {
-        List<String> findedList = new ArrayList<>();
+    private String filteringSchool(String line, List<School> schoolList) {
+        Map<Integer, String> foundMap = new HashMap<>();    // 중복검출 시 더 먼저 적은 학교를 찾기위한 Map 구조
         List<String> findedAddressList = new ArrayList<>();
         List<School> validList;
         Comparator<School> desc = (s1, s2) -> Integer.compare(s2.getName().length(), s1.getName().length());
 
-        if (line.contains("경기국제통상고등학교")) {
-            var a = 1;
-        }
-
+        // 댓글에 소재지에 대한 정보 있는지 검출
         for (String address : addressList) {
             if (line.contains(address)) {
                 findedAddressList.add(address);
             }
         }
 
+        // 소재지가 파악되었다면 해당 소재지에 존재하는 학교로 우선 탐색
         for (String address : findedAddressList) {
             validList = schoolList.stream().filter(s -> s.getAddress().contains(address)).sorted(desc).toList();
             for (School school : validList) {
-                if (line.contains(school.getName())) {
-                    int index = schoolList.indexOf(school);
-                    findedList.add(schools.get(index).getName());
-                    line = line.replace(school.getName(), "");
+                if (isDefaultName(address, school.getName())) { // 지명 + 기본이름으로 쓰는 학교 건너뛰기 (ex: 삼척중학교, 강릉고등학교)
+                    continue;
                 }
-//                schools.remove(school); // 한번 확인한 데이터는 삭제
-                howMany++;
+                if (line.contains(school.getName().replace(address, ""))) {
+                    int index = schoolList.indexOf(school);
+                    foundMap.put(line.indexOf(school.getName().replace(address, "")), schools.get(index).getName());
+                    line = line.replace(school.getName().replace(address, ""), "");
+                }
             }
-            if(!findedList.isEmpty()) {
+            if (!foundMap.isEmpty()) {
                 break;
             }
         }
 
-        if (findedList.isEmpty()) {
+        // 검출 안되었을 경우 전체 탐색
+        if (foundMap.isEmpty()) {
             for (School school : schoolList) {
                 if (line.contains(school.getName())) {
                     int index = schoolList.indexOf(school);
-                    findedList.add(schools.get(index).getName());
+                    foundMap.put(line.indexOf(school.getName()), schools.get(index).getName());
                     line = line.replace(school.getName(), "");
                 }
-                howMany++;
             }
         }
 
+        // 중복검출(2개 이상) 시 유효 데이터 판단
+        if (foundMap.size() > 1) {
+            log.info("!!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!\n");
 
-        if (findedList.size() > 1) {
-            if (!findedList.get(0).contains(findedList.get(1))) {
-                log.info("판단불가 데이터 찾음!!!!!!!!!!!!!\n");
-
-                for (String finded : findedList) {
-                    log.info("{}. {}\n", findedList.indexOf(finded), finded);
-                }
+            int i = 0;
+            for (Map.Entry<Integer, String> entry : foundMap.entrySet()) {
+                log.info("{}. {}\n", ++i, entry.getValue());
             }
 
+            // 판단기준 (댓글에서 처음으로 입력된 학교)
+            int firstFound = foundMap.keySet().stream().mapToInt(v -> v).min().orElseThrow();
+            log.info("pick: {}", foundMap.get(firstFound));
 
-            // 판단기준
+            return foundMap.get(firstFound);
+        }
+        return foundMap.values().stream().findFirst().orElse("");
+    }
+
+    private boolean isDefaultName(String address, String name) {
+        // 지명과 기본학교단위로 이루어진 학교명 검증 (ex: 삼척고등학교, 강릉고등학교 return true)
+
+        name = name.replace(address, "");
+        switch (name) {
+            case "초":
+            case "중":
+            case "고":
+            case "대":
+            case "초등학교":
+            case "중학교":
+            case "고등학교":
+            case "대학교":
+            case "여자중":
+            case "체육고":
+            case "여자고":
+            case "예술중":
+            case "예술고":
+            case "여자대":
+            case "여자중학교":
+            case "체육고등학교":
+            case "여자고등학교":
+            case "예술중학교":
+            case "예술고등학교":
+            case "여자대학교":
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    private String validSchoolFilter(String schoolName) {
+        // 검출된 학교가 현재 이상이 있는 학교인지 검증
+        School school = schools.stream().filter(s -> s.getName().equals(schoolName)).findFirst().orElseThrow();
+
+        if (school.getAddress().contains("학교명변경")) {
+            return "";
         }
 
-        return findedList;
+        return schoolName;
     }
 }
