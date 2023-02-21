@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d050bd-e99d-47bc-b0a0-f3744774c8a1" name="Changes" comment="로그 작업 완료">
+    <list default="true" id="b7d050bd-e99d-47bc-b0a0-f3744774c8a1" name="Changes" comment="find 로직 변경">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.log" beforeDir="false" afterPath="$PROJECT_DIR$/result.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
@@ -103,7 +105,9 @@
       <workItem from="1676777745318" duration="9570000" />
       <workItem from="1676807173311" duration="10343000" />
       <workItem from="1676851992564" duration="20921000" />
-      <workItem from="1676879517739" duration="3241000" />
+      <workItem from="1676879517739" duration="3275000" />
+      <workItem from="1676935844996" duration="7013000" />
+      <workItem from="1676957668094" duration="18460000" />
     </task>
     <task id="LOCAL-00001" summary="문자열 정규화">
       <created>1676730426228</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676868638224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="find 로직 변경">
+      <created>1676883785502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676883785502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="문자열 정규화" />
     <MESSAGE value="로그 작업 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그 작업 완료" />
+    <MESSAGE value="find 로직 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="find 로직 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +160,11 @@
           <properties class="org.gradle.api.tasks.TaskExecutionException" package="org.gradle.api.tasks" />
           <option name="timeStamp" value="18" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SchoolFinder.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,530 +1,208 @@
-[2023-02-20 17:20:04.820][INFO ] --- [main] org.example.Main[main:15] - ==========학교 검색 시작========== 
-[2023-02-20 17:20:04.898][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:33] - 소스파일 데이터 수: 1001개 
-[2023-02-20 17:20:04.900][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:34] - ==========필터링 시작========== 
-[2023-02-20 17:20:05.294][INFO ] --- [main] org.example.Main[main:27] - 유효한 학교 수: 876 
-[2023-02-20 17:20:05.295][INFO ] --- [main] org.example.Main[main:28] - ==========학교 검색 종료==========
+[2023-02-21 20:47:14.178][INFO ] --- [main] org.example.Main[main:15] - ==========학교 검색 시작========== 
+[2023-02-21 20:47:14.491][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:50] - 소스파일 데이터 수: 1001개 
+[2023-02-21 20:47:14.493][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:51] - ==========필터링 시작========== 
+[2023-02-21 20:47:14.499][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
+message
  
-[2023-02-20 17:21:42.802][INFO ] --- [main] org.example.Main[main:15] - ==========학교 검색 시작========== 
-[2023-02-20 17:21:42.881][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:33] - 소스파일 데이터 수: 1001개 
-[2023-02-20 17:21:42.883][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:34] - ==========필터링 시작========== 
-[2023-02-20 17:21:42.885][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-""
- 
-[2023-02-20 17:21:42.886][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"수원창현고짜장면먹고싶어요사진은제가먹다남은짬뽕이네요재학중은아니지만모교학생분들의배를불러드리게하고자이이벤트에참여하는바입니다팔로워님들좋아요한번씩부탁합니다"
- 
-[2023-02-20 17:21:42.894][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"용인영문중안녕하세요에버랜드아시나요ㅎㅎ그쪽에있는나름운치를느낄수있는정말좋은학교영문중이에요선생님들도열심히수업도해주시고저는학년학생부회장입니두저는부회장으로학겨를위해열심히일을하기도하고요이런우리친구들을위해짜장면한번먹고갈께요산위에있는학교에저희는사계절도예뿌고추억도많운학교인데곧졸업하기전에다같이짜장면먹고웃고싶어요우리영문중산이라그런지운동도잘해요모든지열심히인우리중학교우리짜장면먹고말도잘듣자댓글좋아요"
- 
-[2023-02-20 17:21:42.897][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대전글꽃중이요시험끝난지얼마되지않았는데그동안받은스트레스와떨어진성적으로인한절망감을학교친구들선후배님들과함께짜장면을나눠먹으면서힐링하고싶네요"
- 
-[2023-02-20 17:21:42.904][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"고양시행신중행신중모든사람들이자장면이너무먹고싶다고저한테페메를막보내내요정말루먹고싶은가비여저는ㅈ짬뽕이좋은데ㅈ짜장면을저희학교에주신다면짬뽕버리구맛잇게먹을게여사랑해요김서현김요아배정윤김채현박현홍이주연김가연박희정김소연ㄱ"
- 
-[2023-02-20 17:21:42.910][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울서울공연예술고요지금학년선배님들은입시에학년들은잦은공연과시험에학년들은학년준비애찌들어있어요먹여주세요ㅠㅠㅠ정유리ㅍ은경신은휘송아현이유진최수림김예나재연안정동주김병규양이엘유상원이창훈이채원"
- 
-[2023-02-20 17:21:42.913][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고등학교저희학교애들이다전국구라수원안양천안아산잠실등등멀리서오는친구들이많아서짜장면먹고힘내고싶어요ㅠㅠ중간고사는끝났지만짜장면먹고기말고사준비열심히하고싶어요저희학교오면로찌고ㅠ졸업하는게기본인데그중에짜장면먹고찌고싶어요힣히히힣ㅎㅎ힘들게학교오면실습시간에서서힘들에파마마는저희에게짜장면주떼욤수수진강혜원맹채빈최수인박가연양수연이수진김도연손영랑이승민수빈김보은일이삼최하나홍도희최지현복경미연희최재희"
- 
-[2023-02-20 17:21:42.920][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"최윤라청라국제도시인천체고허허벌판이에요아무것도없어요뭘먹으려면택시타고시내로나가야되요역으로나갈려고해도택시타고나가야되요기숙사라는감옥에갇혀있답니다운동선수인데급식도맛이업어요저희운동선수들한테자장면부탁드립니다"
- 
-[2023-02-20 17:21:42.924][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울세화여중저희학교의먹방은정말로국주언니저리가라입니다자장면을먹으면당연히탕수육도시키고탕수육을시키면당연히짬뽕도시킬것이고짬뽕을켜서다먹으면뭔가부족한느낌이들것이고그러면치킨을가게별로종류별로사먹을것입니다저희학교매점도없어요ㅠㅠ제발자장면을저희에게주세요최근시험이끝나고힘든학년과이제곧시험을보는학년언니들을위해서자장면을보내주세요ㅠ박세연이가원김은빈김은빈정은서장세미이하연박재은박세린박세린손영은지윤최유진안은제곽혜나곽혜나권나연손지완김나연정보원정다빈김다연김도연김윤경홍혜진"
- 
-[2023-02-20 17:21:42.925][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울시구로구가리봉동서울연희미용고등학교나오는급식이라고는말라빠진육포같은탕수육소금들이부은무말랭이맛없다못해비린소세지이런수준의급식인데제발짜장면이라도먹게해주세요ㅠㅠㅠ맛없어서밥안먹고쫄쫄굶다가집에가는학생들이널리고줄을섰습니다"
- 
-[2023-02-20 17:21:42.931][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울잠신중이요저희의급식은처음에는좋았지만나날이엉망이되어가고저번주에는급식의국에꿈틀거리는손가락의한마디만한애벌레가나왔습니다저희들은급식을먹기위해학교에오는건아니지만힘든공부속에학교에서먹는맛있는급식에대한학생들의로망이있지않습니까저희는그것까지는바라지않습니다그냥단지육천원짜리짭쪼롬한짜장면한그릇을원할뿐입니다불쌍한저희들을도와주시옵소서ㅠㅜㅜㅜ"
- 
-[2023-02-20 17:21:42.936][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부천경기국제통상고제친구홍요한김빈권혁민입니다먼저왼쪽부터제친구는밥이없어서못먹어말랐습니다가운데친구는페북스타김진수닮아서음식점가도못먹구요용돈도못받고있습니다그리고오른쪽친구는중국에서와서한국말이서투릅니다꼭제친구들을위해배달의민족이꼭도와줬으면좋겠습니다"
- 
-[2023-02-20 17:21:42.952][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고등학교저희고등학교는학생들이전국구에서모이다보니아침도못먹고일찍학교에오는친구들이태반이에요점심도급식으로안나오고도시락업체에서신청받아먹는데너무맛없어서굶거나매점가서먹거나집에서싸와서먹는학생들도있어요서울연희미용고등학교짜장면이먹고싶어요도와주세요앙기모찌수진원예진박가연맹채빈일이삼양수연박민지이승민수빈예진김보은강수연이세빈김도연이수진최하나김민지이미연"
- 
-[2023-02-20 17:21:42.958][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중이번태풍때문에급식이밀려서먹기로했던짜장면이날라갔습니다ㅠ오랜만에먹는짜장면인데배달에민족에서좋은이벤트를열어주셔서감사합니당ㅎㅎ"
- 
-[2023-02-20 17:21:42.959][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중이제거의주뒤면시험이고원서넣는데배민에서주는짜장면먹고기받고원서넣고싶어용이런이벤트열어주셔서감사합니당"
- 
-[2023-02-20 17:21:42.963][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서유진박우정이하윤권유진임수정한아름이하늘얘들아다달아ㅎㅎ충북오창양청중학년다같이짜장면먹고싶어요ㅠㅠ학교에서배고파서죽을것같아요보내쥬세여"
- 
-[2023-02-20 17:21:42.967][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
- 
-[2023-02-20 17:21:42.969][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도시흥시군서중학교저희중좀있으면축제랑체육대회가이틀연속으로있어요ㅠㅠㅜㅜ그거준비하느라너무바쁩니다ㅜㅜㅜㅜ이번에짜장면천그릇온다면정말특별하게준비할수있을꺼같아요"
- 
-[2023-02-20 17:21:42.971][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고등학교저희학교애들이다전국구라멀리서아침도못먹고첫차타고오는친구들이많아서짜장면먹고힘내고싶어요ㅠㅠ중간고사는끝났지만짜장면먹고기말고사준비열심히하고싶어요저희학교오면로찌고ㅠ졸업하는게기본인데그중에짜장면먹고찌고싶어요힣히히힣ㅎㅎ힘들게학교오면실습시간에서서힘들에파마마는저희에게짜장면주떼욤수수진이이수진원원예진김김유림예예진이승민강강혜원맹맹채빈김김도연김김보은김김미은손손영랑최최하나홍홍도희이홍영"
- 
-[2023-02-20 17:21:42.976][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"춘천봉의중조은진이정원박세은김해린함정인김서연이예림이민규이민혁김시연심효은김지수김다은남수민이예원하령은양유정정효빈허채연주연이짜장면먹고싶엉ㅈㅅ보이는애들태그함안될거같지만태그ㅋㅋㅋㅋㅋㅋㅋㅋ사랑해ㅈㅅ"
- 
-[2023-02-20 17:21:42.978][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"문소윤정은비경기도고양시화정중저희학교공부열심히해서가끔은짜장면먹으면서에너지충전하고시퍼요ㅠㅠㅠ이번에선배님들도힘들게시험끝내시고해서꼭전교생다같이수고했단의미로짜장면먹개해주세여이번애짜장면먹으면담애도계속배달의민족음식시켜먹을꺼같아요진짜진짜믿습니다배달의민족"
- 
-[2023-02-20 17:21:42.983][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"원주시삼육중학교우리급식에고기가나온적이없어요맨날두부에콩에김치에진짜짜장면좀주세여불쌍하자나요ㅠㅠㅠㅠㅠ"
- 
-[2023-02-20 17:21:42.988][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중짜장명주세용석우중"
- 
-[2023-02-20 17:21:42.989][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중서울오금중"
- 
-[2023-02-20 17:21:42.991][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"충북오창양청중이요하하하학년이에요물론고쓰리가더힘들겠지만저희도고등학교실업계나마이스터고가는친구들은면접에시험에원서접수에정말바쁘거든요그리고고입고사가폐지된바람에시험끝난지일주일도채안되었는데또시험기간이에요ㅠㅠㅠㅠ제발저희에게희망을주세요ㅠㅠㅠㅠㅠ"
- 
-[2023-02-20 17:21:42.991][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"안성에있는안성여중인데저희학기체육대회월쯤선생님이학급돈모이면사주신다그러셨는데돈이모자라서아직까지못먹고있어요다른반애들은단합회했는데저희반은선생님이애들말안듣는다고단합회하면분위기깨질거같다고하시면서단합회도심지어안했어요추억삼아자장면이라도꼭먹고싶어요"
- 
-[2023-02-20 17:21:42.992][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"영동영동인터넷고등학교저는버스가하루에몇대다니지않는곳에서살아서짜장면시켜먹그면다뿔어요멀쩡한짜장면친구들과나눠먹고싶습니닷"
- 
-[2023-02-20 17:21:42.993][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"충북오창양청중이요짜장면사랑하는중학교에요인증샷보낼께요학년막시험끝나셔서좋은타이밍부탁드릴께요"
- 
-[2023-02-20 17:21:43.000][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도시흥시군서중학교입니다저희중요즘축제가이틀연속으로해서다들힘들어합니다ㅠㅜㅜ이번에짜장면천그릇이온다면힘을내서열심히할수있을것같아요"
- 
-[2023-02-20 17:21:43.002][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"거창거창국제학교저희급식한끼에원인데진짜상태가많이심각해요ㅠㅠ먹어도먹은것같지않고항상허기져있어요ㅜㅜㅜㅜㅜ시반에등교해서교시수업을하면서의사의꿈을펼쳐가고있는저희공부열심히하는저희를위해짜장면주신다면최선을다해먹을자신있어욯ㅎㅎㅎㅎㅎㅎㅎㅎ전교생수도적고기숙사학교라서매점같은것도없고시골이라서시켜먹을음식이많지도않은저희학교에서고생하는학생들을위해짜장면주세요ㅜㅜㅜㅜㅜㅜ김란희박소연김은규김유림홍순호엄지원이민영반민휴조민서정영교한줄씩써봐랑"
- 
-[2023-02-20 17:21:43.003][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"우리가어떤민족입니까맞습니다바로배달의민족입니다배달의역사는조선시대훨씬전부터전해져내려와지금현재까지존재하는우리의음식문화인만큼이름부터남다른배달의민족앱을사용합니다타사앱인여요는볼필요없이무슨앱배달의민족앱입니다서울용문중학년최고학년으로써우리후배들배불리먹는모습보고고등학교로진학하고싶습니다세계가종말하는그날까지배달의민족앱흥해라"
- 
-[2023-02-20 17:21:43.006][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고서로학교거멀어서아침도못먹고첫차타서학교와요ㅜ점심도도시락이라맛도없고짜장면먹고싶어요ㅠㅠㅠ박민지김보은맹채빈강수연박가연원예진강혜원수진김유림이수진이세빈일이삼김미은"
- 
-[2023-02-20 17:21:43.013][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"짜장면너무먹고샆어요정말먹고싶어요간절해요ㅜㅜㅜㅜㅜㅜㅜ제발요요용요즘짜증이많아서저는짜장면을먹고마음을다스릴려구용그래서서울진선여중이여영"
- 
-[2023-02-20 17:21:43.016][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"제발요인천체고요ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ여기는시내에나가려면택시타고오려걸려요ㅜㅜㅜ체전도내일이면끝나는날인데진짜죽을것같은체전준비하느라힘들었을저희운동선수들에게짜장면한그릇씩배달해주신다면정말감사드리겠습니당"
- 
-[2023-02-20 17:21:43.017][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고등학교요못먹고삽니다제발한번만자비를베풀어주세요급식실이없습미다매점에서천원짜리빵먹기도힘듭니다죄송하지만저희에게양보해주세요배달의민족파이팅연희미용고학생들파이팅"
- 
-[2023-02-20 17:21:43.019][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중이요"
- 
-[2023-02-20 17:21:43.022][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산사직여중"
- 
-[2023-02-20 17:21:43.037][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"인천청라인천체고요ㅠㅠ체고라서운동을하느라항상금방배가고픈데먹을걸먹으려면택시타고나가야해요ㅠㅠ이제전국체전도끝낫으니부탁드립니다"
- 
-[2023-02-20 17:21:43.039][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"제발진주경남문산중에주세요기브미짜장면ㅠㅠ학교메번아침마다스쿨버스맞춰가기도힘든대짜장면한그릇먹으면기분좋아서날라갈듯하네요ㅎㅎ제발짜장면주세요ㅠㅠ배달의민족짱진주문산짱문산중짱짜장은급식에도잘안나와요ㅠ제발저희문산중에해주세요사랑합니다배달의민족"
- 
-[2023-02-20 17:21:43.041][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"충북오창양청중흑흑제전재산입미당흑흑흐그흐그흐긓흫흐그흐그ㅎ그흐르흐흫흫르그르르글짜장면먹고싶어도못먹어요ㅎ흛르흑흐ㅇㅎ흑흑가영이와양청중모두가짜장면을먹을수있게좋ㄹ하요뉼러주세요ㄹ흘긓ㅋ흘ㄱ흘그흐륵흐르그를ㄱ"
- 
-[2023-02-20 17:21:43.042][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
- 
-[2023-02-20 17:21:43.044][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"네제발부탁드려요저희전국체전도다음주면다끝나요종목별로다고생했으니까저희학교주세요저희는중간고사보다몇배힘든전국체전을끝냈습니다제발인천체고요인천체고"
- 
-[2023-02-20 17:21:43.046][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대전광역시중구부사동대전신일여중학교에서짜장면이나오는데그냉동면맛이너무토나옵니다원조짜장면응먹어야됩니더먹게해주세요급식먹을때마다토할거같아요"
- 
-[2023-02-20 17:21:43.047][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"강원도원주시북원여자중학교ㅇ북원여중학생들이굶주림에허덕이고있습니다자장면그릇이우리아이들에게큰힘이됩니다ㅠ"
- 
-[2023-02-20 17:21:43.050][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중"
- 
-[2023-02-20 17:21:43.051][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울이화여대병설미디어고등학교입니다중간고사이후로성적으로슬퍼하는저희에게자장면으로행복을선사해주세요힘내서기말고사때더더잘보고기쁜마음으로친구들이랑배달의민족에서치킨시켜먹고싶어요권은비김문선김선주김수연김은수남가희박주영서초현염수빈유다운이소휘전하연정유정한승연허예림현승희홍지연황창정얘도라댓글ㄱㄱ답댓말고새댓으로ㅎㅎ학교니까딴반친구들도태그해서ㅎㅅㅎ"
+[2023-02-21 20:47:14.555][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:232] - 판단불가 데이터 찾음!!!!!!!!!!!!!
  
-[2023-02-20 17:21:43.054][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경상남도사천시문선초요ㅜㅜㅜ저희학교에서는진행하는행사가많아서친구들이너무열심히하루하루힘들게연습하고연습하고연습하고지치고힘든데급식은정말맛이없습니다ㅜㅜ제발저희초급식충친구들에게짜장면을주세요ㅜㅜ급식에짜장면이있어도면이서로하나가되있어요ㅎㅎ학년졸업하기전에친구들이랑이런경험꼭한번하고싶어요배달의민족님사랑합니다"
- 
-[2023-02-20 17:21:43.059][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"조유진저희학교로말씀드리면요급식재활용을번정도했었던전과에제가그급식을먹고장염이와서토하고배아프고신경질내고유진이때리고난폭해지고장난아니였습니다제발급식으로부터저희를구해주세요배달의민족의도움의손길이인천만월중학생들의건강을구합니다후원문의"
- 
-[2023-02-20 17:21:43.065][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"하양여중"
- 
-[2023-02-20 17:21:43.067][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중이요"
- 
-[2023-02-20 17:21:43.067][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도이천아미초배배달의민족에게달달리고머리굴리고체육하고공부하며얼마나힘들겠어요ㅜㅜ의이렇게간절한데안줄꺼에여배민부탁해요족족발피자치킨뭐든잘먹는애들이에여짜장면저희에게쏘시져제가저번치킨때도말했지만이번에도안되면진짜요기배통이라던지옮길꺼에요"
- 
-[2023-02-20 17:21:43.068][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"진주문산중이요주연전수빈김유진김민정박단비허정원더더더ㅓㄷ좋아요눌럭ㄷ조"
- 
-[2023-02-20 17:21:43.076][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"성남계원예중이요쒸발운동장공사해서축제도못하고체육대횐가뭔가뭐시기도못하고저거짓는거도예고이름으로될겁니다ㅠㅠㅠㅠㅠ그리고이제그건물짓는다고학교에돈이별로없어요ㅠㅠㅠㅠㅠㅜ수학여행못가게생겼어요배민님제발저희를안쓰럽게생각하시어짜장면을내려주사아멘권세연윤소희윤희위병우박소이배정우박진영이윤정이진화김교진김선형김영랑최유림너네밖에기억이안나저거좀복붙해주려뮤ㅠㅠ"
- 
-[2023-02-20 17:21:43.077][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"광주광역시광주숭일중인데용저희점심시간에맨날진짜뛰어가고막다리도부러지고발가락도막부러지고했는데그정도로짜장면을원해요짜장면먹고싶어요배달의민족님숭일중꼭부탁드려요"
- 
-[2023-02-20 17:21:43.081][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"청라국제도시인천체고저희학교가주변에아무것도없고시내로나가려면택시를타고나가야해요ㅜㅠ기숙사에있기도해서짜장면먹을수있는일이거의없어요ㅠㅠ그리고운동선수인데운동끝나면배고픈데다가삼시세끼모두급식이라서맛도없어요ㅠㅠㅠ이번에전국체전때문에계체량을맞추기위해살을킬로씩빼는친구들도있었어요ㅠㅠ체전도끝났으니짜장면을주신다면정말감사드리겠습니다"
- 
-[2023-02-20 17:21:43.099][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"제에에에엥발병중유리중짜장면한번도안나왔슴당젭발이성하김가영박서현최하경이현진구별"
- 
-[2023-02-20 17:21:43.101][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"다슈이걸본순간당신의부모님이한달내로죽습니다군데복사하여야합니다이것을무시하여많은사람이죽었습니다이것은악령이깃든저주의주문입니다반드시군데올리지않으면부모님이죽습니다군데올리면부모님에게한달내로좋은일이생깁니다이것을무시하고후회하지말고속는셈치고군데올리세요제목을바꾸면안됩니다저주의연예인전번죄송합니다장나라"
- 
-[2023-02-20 17:21:43.102][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대전글꽃중"
- 
-[2023-02-20 17:21:43.102][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"고양시행신중"
- 
-[2023-02-20 17:21:43.103][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"인천계산여고자장면을먹으면우리학교언니들수능대박나고줄넘기부피구부전국대회등할거같습니다노현희노현영정영서하현주조주현남다빈이다영이다민각자반친구들다태그좀ㅎㅎㅎ"
- 
-[2023-02-20 17:21:43.144][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중이요"
- 
-[2023-02-20 17:21:43.146][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구으헝동중으헝학겨으헝짜장으헝면주으헝세요으헝배가으헝너무으헝고파으헝짜장으헝면을으헝안먹으헝으면으헝뒤져으헝버릴으헝꺼같으헝아요으헝"
- 
-[2023-02-20 17:21:43.146][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"분당양영중이요저희는다른학교다하는체육대회수련회수학여행심지어거의학교안을지키고있습니다불쌍한저희중에게은혜를"
- 
-[2023-02-20 17:21:43.150][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경산하양여중"
- 
-[2023-02-20 17:21:43.152][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구으헝동중으헝학겨으헝짜장으헝면주으헝세요으헝배가으헝너무으헝고파으헝짜장으헝면을으헝안먹으헝으면으헝뒤져으헝버릴으헝꺼같으헝아요으헝"
- 
-[2023-02-20 17:21:43.153][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
- 
-[2023-02-20 17:21:43.153][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"용인백현중이요시험보느라힘들었던전교생에게짜장면이간다면매우매우힘이될것같아요ㅠㅠㅠㅠ먹는다면기말고사도잘볼것가틍데ㅎㅎㅎ용인백현중꼭뽑아주세여"
- 
-[2023-02-20 17:21:43.154][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구정화중"
- 
-[2023-02-20 17:21:43.158][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대전가양중"
- 
-[2023-02-20 17:21:43.160][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"서울연희미용고등학교저희학교애들이다전국구라수원안양천안아산잠실등등멀리서오는친구들이많아서짜장면먹고힘내고싶어요ㅠㅠ중간고사는끝났지만짜장면먹고기말고사준비열심히하고싶어요저희학교오면로찌고ㅠ졸업하는게기본인데그중에짜장면먹고찌고싶어요힣히히힣ㅎㅎ힘들게학교오면실습시간에서서힘들에파마마는저희에게짜장면주떼욤강혜원혜원원예진박강혜원수진원예진박가연이수진이미연최하나김유림김도연양수연최재희서지은일이삼홍도희김민지김미은복경미손영랑"
- 
-[2023-02-20 17:21:43.162][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄푸른중진짜로이런거당첨되서짜장면먹고싶어요짜장면먹고싶어요학교에서한달에나올까안나올까하는데진짜다같이먹고싶어요배달의민ㄴ족ㅠㅠㅠㅠㅠㅠ짜장면좀주세요ㅠㅠㅠㅠ짜장면다같이먹었으면좋겟다요"
- 
-[2023-02-20 17:21:43.163][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"ㄷ다슈이걸본순간당신의부모님이한달내로죽습니다군데복사하여야합니다이것을무시하여많은사람이죽었습니다이것은악령이깃든저주의주문입니다반드시군데올리지않으면부모님이죽습니다군데올리면부모님에게한달내로좋일이생깁니다이것을무시하고후회하지말고속는셈치고군데올리세요제목을바꾸면안됩니다저주의연예인전번죄송합니다장나라"
- 
-[2023-02-20 17:21:43.164][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"거창군가조면거창국제학교저희학교는가조면이라는시골에위치하고있어요집에서는배달의민족많이사용하는데여긴시골이라서시키지도못하고ㅠㅠ저희에게짜장면을주신다면정말큰행복일것같아요그리고저희학교가시험이너무많아서학생들이스트레스엄청받고있는데이기회에함께모여서스트레스도풀고싶어요꼭부탁드립니다짜장면"
- 
-[2023-02-20 17:21:43.193][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
- 
-[2023-02-20 17:21:43.194][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중석우중"
- 
-[2023-02-20 17:21:43.194][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중"
- 
-[2023-02-20 17:21:43.204][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-""
- 
-[2023-02-20 17:21:43.209][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"짜장면짜장면인제일만학우여러분우리짜장파티합시다단합된마음으로명회식한번"
- 
-[2023-02-20 17:21:43.212][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구정화중"
- 
-[2023-02-20 17:21:43.212][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"가양중학교"
- 
-[2023-02-20 17:21:43.212][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구사대부중제발뽑아주세요"
+[2023-02-21 20:47:14.555][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 0. 경기국제통상고등학교
  
-[2023-02-20 17:21:43.212][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
- 
-[2023-02-20 17:21:43.213][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대전가양중이여"
- 
-[2023-02-20 17:21:43.213][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구사대부중"
- 
-[2023-02-20 17:21:43.213][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
- 
-[2023-02-20 17:21:43.213][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
- 
-[2023-02-20 17:21:43.214][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부천경기국제통상고짜장면표준어된기념으로우리학교학생들이맛있게먹방찍어야죠무슨상관인진모르겠지만저히학교보내쥬떼욤"
+[2023-02-21 20:47:14.556][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 1. 명문고등학교
  
-[2023-02-20 17:21:43.220][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.576][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구으헝동중으헝학겨으헝짜장으헝면주으헝세요으헝배가으헝너무으헝고파으헝짜장으헝면을으헝안먹으헝으면으헝뒤져으헝버릴으헝꺼같으헝아요으헝"
+❣️❤️❣️❤️❣️서울연희미용고등학교 ❣️❤️❣️❤️❣️❤️
+저희학교애들이 다 전국구라 수원 안양 천안 아산 잠실 등등멀리서 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
+수수진강혜원맹채빈최수인박가연양수연이수진김도연손영랑이승민수빈김보은일이삼최하나홍도희최지현복경미연희최재희
  
-[2023-02-20 17:21:43.225][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
- 
-[2023-02-20 17:21:43.225][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구으헝동중으헝학겨으헝짜장으헝면주으헝세요으헝배가으헝너무으헝고파으헝짜장으헝면을으헝안먹으헝으면으헝뒤져으헝버릴으헝꺼같으헝아요으헝"
+[2023-02-21 20:47:14.599][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:232] - 판단불가 데이터 찾음!!!!!!!!!!!!!
  
-[2023-02-20 17:21:43.227][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구사대부중"
+[2023-02-21 20:47:14.599][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 0. 중앙여자고등학교
  
-[2023-02-20 17:21:43.230][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
+[2023-02-21 20:47:14.599][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 1. 중앙여자중학교
  
-[2023-02-20 17:21:43.230][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.602][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
+서울시 구로구 가리봉동 서울연희미용고등학교
+나오는 급식이라고는 말라빠진 육포같은 탕수육 소금 들이부은 무말랭이 맛없다 못해 비린 소세지 이런 수준의 급식인데 제발 짜장면이라도 먹게 해주세요 ㅠㅠㅠ 맛없어서 밥안먹고 쫄쫄 굶다가 집에 가는 학생들이 널리고 줄을 섰습니다..?
  
-[2023-02-20 17:21:43.238][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.644][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"안산디자인문화고신시연심민정최나래짜장면먹고싶어망고배달의민족까지진출하자와우"
+❤❤서울 연희미용고등학교❤❤
+저희 고등학교는 학생들이 전국구에서 모이다보니 아침도 못먹고 일찍 학교에오는 친구들이 태반이에요..?? 점심도 급식으로 안나오고 도시락업체에서 신청받아 먹는데 너무 맛없어서 굶거나 매점가서 먹거나 집에서 싸와서 먹는 학생들도있어요??
+서울 연희미용고등학교 짜장면이 먹고싶어요!? 도와주세요 앙기모찌!!!!?????
+수진 원예진 박가연 맹채빈 일이삼 양수연 박민지 이승민 수빈 예진 김보은 강수연 이세빈 김도연 이수진 최하나 김민지 이미연
  
-[2023-02-20 17:21:43.239][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.673][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구운암초등ㅇ학교진짜저번에안되가지공ㅠㅠㅠㅠㅠㅠㅠ운동회도제대로못했는데급식도맛없고억지로다먹어야해요ㅠㅠㅠ짜장면먹으면힘ㅁ엄청날꺼같아요"
+경기도 시흥시 군서중학교 !!!@#!!# 저희중 좀있으면 축제랑 체육대회가 이틀연속으로 있어요 ㅠㅠㅜㅜ 그거 준비하느라 너무 바쁩니다 ㅜㅜㅜㅜ 이번에 짜장면 천그릇 온다면 정말 특별하게 준비할수 있을꺼같아요 ????
  
-[2023-02-20 17:21:43.255][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.680][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구정화중"
- 
-[2023-02-20 17:21:43.255][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+서울,연희미용고등학교
+저희학교애들이 다 전국구라 멀리서 아침도 못먹고 첫차타고 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
 
-"동탄석우중"
+수수진이이수진원원예진김김유림예예진이승민강강혜원맹맹채빈김김도연김김보은김김미은손손영랑최최하나홍홍도희이홍영
  
-[2023-02-20 17:21:43.255][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.702][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"고양시행신중"
- 
-[2023-02-20 17:21:43.256][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+원주시 삼육중학교
 
-"동탄석우중"
+우리 급식에 고기가 나온적이 없어요 맨날 두부에 콩에 김치에
+진짜 짜장면좀 주세여 불쌍하자나요 ㅠㅠㅠㅠㅠ
  
-[2023-02-20 17:21:43.260][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.724][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"원수정천현진최인영정민정영천영천여자고짜장면먹자ㅏ얘드라ㅏㅜ"
- 
-[2023-02-20 17:21:43.262][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+영동, 영동인터넷고등학교
 
-"서울진선여중짜장면먹고싶어여짜장면짜증날땐짜장면저희두짜장면주세여"
+저는 버스가 하루에 몇대 다니지 않는 곳에서 살아서 짜장면!!!시켜먹그면 다뿔어요!!!!!!!!!!????????? 멀쩡한 짜장면 친구들과 나눠먹고 싶습니닷❣️❣️❣️❣️❣️❣️
  
-[2023-02-20 17:21:43.263][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.739][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"부산개금여중"
+경기도 시흥시 군서중학교 입니다! 저희중 요즘 축제가 이틀연속으로 해서 다들 힘들어합니다 ㅠㅜㅜ 이번에 짜장면 천그릇이 온다면 힘을 내서 열심히 할수있을것같아요!!❤❤❤❤❤❤❤❤?????????????????????
  
-[2023-02-20 17:21:43.263][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.745][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"부산개금여중"
+거창, 거창국제학교!!!
+저희 급식 한끼에 6000원인데 진짜 상태가 많이 심각해요ㅠㅠ 먹어도 먹은 것 같지 않고 항상 허기져있어요ㅜㅜㅜㅜㅜ 7시반에 등교해서 9교시 수업을 하면서 의사의 꿈을 펼쳐가고 있는 저희 :) 공부 열심히 하는 저희를 위해 짜장면♡♥♡♥♡♥♡ 주신다면 최선을 다해 먹을 자신 있어욯ㅎㅎㅎㅎㅎㅎㅎㅎ :) 
+전교생 수도 적고 기숙사 학교라서 매점 같은 것도 없고 시골이라서 시켜먹을 음식이 많지도 않은 저희 학교에서 고생하는 학생들을 위해 짜장면 주세요ㅜㅜㅜㅜㅜㅜ♥ 
+김란희 Erica Sohn 박소연 김은규 김유림 홍순호 엄지원 이민영 반민휴 조민서 정영교 한 줄씩 써봐랑
  
-[2023-02-20 17:21:43.263][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.754][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"부산개금여중"
+서울 연희미용고!!
+서로 학교거 멀어서 아침도못먹고 
+첫차타서 학교와요ㅜ 점심도 도시락이라 맛도 없고...
+짜장면먹고싶어요ㅠㅠㅠ
+박민지 김보은 맹채빈 강수연 박가연 원예진 강혜원 수진 김유림 이수진 이세빈 일이삼 김미은
  
-[2023-02-20 17:21:43.264][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.780][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"춘천춘천여자중학교"
+서울연희미용고등학교요 못 먹고 삽니다 제발 한 번만 자비를 베풀어 주세요 급식실이 없습미다 매점에서천원짜리 빵 먹기도 힘듭니다 죄송하지만 저희에게 양보해 주세요 배달의 민족 파이팅 연희미용고학생들파이팅
  
-[2023-02-20 17:21:43.264][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.915][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"고양시행신중"
+제에에에엥발 병!중!!!!유리중 짜장면 한번도안나왔슴당....젭발♡이성하 김가영 박서현 최하경 이현진 구별
  
-[2023-02-20 17:21:43.264][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.918][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구사대부중"
+ㆍ다:017-854-9784 슈:018-958-6427; 이걸본순간당신의부모님이한달내로죽습니다5군데 복사하여야합니다이것을 무시하여많은사람이죽었 습니다> >이것은 악령이깃든저주의주문입니다> >반드시5군데 올리지않으면부모님이죽습니다> >5군데 올리면부모님에게한달내로좋은일이생깁니다> >이것 을무시하고후회하지말고> > 속는셈치고5군데 올리세 요> >제목을 바꾸면안됩니다<input id="contentModify5" value="저주의 연예인전번....> ..> ..>죄송합니다... .. .. .. .. .. .. 장나라:011-248-44
  
-[2023-02-20 17:21:43.266][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.973][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고대구경북예고"
+대구 으헝 동중 으헝 학겨 으헝 
+짜장 으헝 면주 으헝 세요 으헝 
+배가 으헝 너무 으헝 고파 으헝
+짜장 으헝 면을 으헝 안먹 으헝 
+으면 으헝 뒤져 으헝 버릴 으헝
+꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡
  
-[2023-02-20 17:21:43.266][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.985][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"박수진김서휘고해인김민서국립전통예술중학교요"
+대구 으헝 동중 으헝 학겨 으헝 
+짜장 으헝 면주 으헝 세요 으헝 
+배가 으헝 너무 으헝 고파 으헝
+짜장 으헝 면을 으헝 안먹 으헝 
+으면 으헝 뒤져 으헝 버릴 으헝
+꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡
  
-[2023-02-20 17:21:43.267][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.994][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"하양여중"
+????서울연희미용고등학교 ????
+저희학교애들이 다 전국구라 수원 안양 천안 아산 잠실 등등멀리서 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
+강혜원혜원원예진박강혜원수진원예진박가연이수진이미연최하나김유림김도연양수연최재희서지은일이삼홍도희김민지김미은복경미손영랑
  
-[2023-02-20 17:21:43.268][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.997][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"하양여중"
+ㄷ다:017-854-9784 슈:018-958-6427; 이걸본순간당신의부모님이한달내로죽습니다5군데 복사하여야합니다이것을 무시하여많은사람이죽었 습니다> >이것은 악령이깃든저주의주문입니다> >반드시5군데 올리지않으면부모님이죽습니다> >5군데 올리면부모님에게한달내로좋일이생깁니다> >이것 을무시하고후회하지말고> > 속는셈치고5군데 올리세 요> >제목을 바꾸면안됩니다<input id="contentModify5" value="저주의 연예인전번....> ..> ..>죄송합니다... .. .. .. .. .. .. 장나라:011-248-447
  
-[2023-02-20 17:21:43.268][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:14.999][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"경기도농초짜장면머꾸싶어오오옹짜장머꼬싶다그니까태그할께학교급식은더럽다인지은고우디세현차시현윤수진주연김시연김리원김예원김연형"
+거창군 가조면 거창국제학교!!! 
+저희 학교는 가조면이라는 시골에 위치하고 있어요 집에서는 배달의 민족 많이 사용하는데 여긴 시골이라서 시키지도 못하고ㅠㅠ 저희에게 짜장면을 주신다면 정말 큰 행복일 것 같아요 그리고 저희 학교가 시험이 너무 많아서 학생들이 스트레스 엄청 받고 있는데 이 기회에 함께 모여서 스트레스도 풀고 싶어요!! 꼭 부탁드립니다!! 짜장면❤️❤️❤️❤️
  
-[2023-02-20 17:21:43.268][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.030][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"진선여중"
- 
-[2023-02-20 17:21:43.268][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
 
-"경기도수원이목중자장면을먹으면체육대회등할수있을거같습니다백지애태성아최은정손예글혜인민성정서연장서연노호진정윤오정성한김민찬"
  
-[2023-02-20 17:21:43.270][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.035][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"경기부천부곡중학년들은자유학기제라시험을안봤습니다그때저희는너무신나있었죠하지만지하철을타고가고다같이움직이다보니생각보다힘들었습니다저희들도힘든데선생님께서는얼마나더힘드시겠습니까전체학년들을다모이게하시고목터져라부르시고정말힘드셨습니다그리고학년학년선배들께서는이번시험도보시고시험공부하시느라힘드셨습니다자기가집에서시켜먹어도되는데꼭당첨되고싶은이유는다같이먹으면뿌듯할꺼같습니다이것도단합이고한마음이고당첨되면그런쾌감과짜장면을얻는다니얼마나생각만해도좋은지당첨되면정말좋을꺼같아요당첨안되고괜찮습니당다음에도기회가있겠죠배달의민족이런이벤트감사합니당"
+짜장면짜장면 인제일만학우여러분 우리 짜장파티합시다~~~~~~
+단합된마음으로 1000명회식한번....????
  
-[2023-02-20 17:21:43.271][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.037][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구정화중"
+가양중학교
  
-[2023-02-20 17:21:43.272][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.038][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"가양중학교옹오ㅗ"
+대구사대부중 제발 뽑아주세요 ❤❤
  
-[2023-02-20 17:21:43.272][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.040][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"오산문시중"
+대구사대부중
  
-[2023-02-20 17:21:43.272][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.048][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대구정화중"
+대구 으헝 동중 으헝 학겨 으헝 
+짜장 으헝 면주 으헝 세요 으헝 
+배가 으헝 너무 으헝 고파 으헝
+짜장 으헝 면을 으헝 안먹 으헝 
+으면 으헝 뒤져 으헝 버릴 으헝
+꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡
  
-[2023-02-20 17:21:43.272][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.055][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"고양시행신중"
+대구 으헝 동중 으헝 학겨 으헝 
+짜장 으헝 면주 으헝 세요 으헝 
+배가 으헝 너무 으헝 고파 으헝
+짜장 으헝 면을 으헝 안먹 으헝 
+으면 으헝 뒤져 으헝 버릴 으헝
+꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡
  
-[2023-02-20 17:21:43.273][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.057][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"고양시행신중"
+대구사대부중
  
-[2023-02-20 17:21:43.273][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.089][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"대전글꽃중"
+춘천 춘천여자중학교
  
-[2023-02-20 17:21:43.273][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.090][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"고양시행신중"
+대구사대부중
  
-[2023-02-20 17:21:43.274][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"부산개금여중"
+[2023-02-21 20:47:15.093][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:232] - 판단불가 데이터 찾음!!!!!!!!!!!!!
  
-[2023-02-20 17:21:43.275][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"대구으헝동중으헝학겨으헝짜장으헝면주으헝세요으헝배가으헝너무으헝고파으헝짜장으헝면을으헝안먹으헝으면으헝뒤져으헝버릴으헝꺼같으헝아요으헝"
+[2023-02-21 20:47:15.093][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 0. 경북예술고등학교
  
-[2023-02-20 17:21:43.275][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
-
-"동탄석우중"
+[2023-02-21 20:47:15.093][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:235] - 1. 대구대학교
  
-[2023-02-20 17:21:43.276][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.093][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"부천경기국제통상고짜증날땐짜장면우울할땐울면짜장면호로록"
+박수진 김서휘 고해인 김민서 국립전통예술중학교요!!!!
  
-[2023-02-20 17:21:43.276][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.101][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"수원연무중저희학교항상나물축제에요ㅠㅠ나물만먹어서과자먹는것도질렸는데짜장면좀기부해주세요나물먹고짜증나는연무중학생들에게짜장면을"
+가양중학교옹오ㅗ
  
-[2023-02-20 17:21:43.281][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:51] - (WARNING)알수없는 라인
+[2023-02-21 20:47:15.108][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:119] - (WARNING)알수없는 라인
 
-"경기도수원시연무중이요저희는최근에시험을보고수행평가를하면서모두지쳐있습니다짜장면주시면힘생길거가타요"
+대구 으헝 동중 으헝 학겨 으헝 
+짜장 으헝 면주 으헝 세요 으헝 
+배가 으헝 너무 으헝 고파 으헝
+짜장 으헝 면을 으헝 안먹 으헝 
+으면 으헝 뒤져 으헝 버릴 으헝
+꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡
  
-[2023-02-20 17:21:43.296][INFO ] --- [main] org.example.Main[main:27] - 유효한 학교 수: 876 
-[2023-02-20 17:21:43.296][INFO ] --- [main] org.example.Main[main:28] - ==========학교 검색 종료==========
+[2023-02-21 20:47:15.118][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:123] - ==========모든 필터링 종료========== 
+[2023-02-21 20:47:15.119][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:124] - 1차 필터(공백제거) 발견 학교 수: 0개 
+[2023-02-21 20:47:15.119][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:125] - 2차 필터(한글제외 모든 문자제거) 발견 학교 수: 874개 
+[2023-02-21 20:47:15.119][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:126] - 3차 필터(약어) 발견 학교 수: 98개 
+[2023-02-21 20:47:15.119][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:127] - 발견된 학교 수: 972개, 알수없는 라인: 32개 
+[2023-02-21 20:47:15.119][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:130] - 총 연산 수: 4106525번 
+[2023-02-21 20:47:15.125][INFO ] --- [main] org.example.Main[main:26] - ==========학교 검색 종료==========
 
  
