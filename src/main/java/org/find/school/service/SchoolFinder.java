@@ -17,11 +17,13 @@ public class SchoolFinder {
     private final List<School> schools;
     private final List<School> filteredSchools;
     private final List<String> addressList;
-    private int avrageFindIndex = 0;
+    private List<Map<Integer, String>> holdSchoolResults = new ArrayList<>();
+    private Map<String, Integer> foundIndexSum = new HashMap<>();
 
     public SchoolFinder(String sourceFilePath, String schoolDataFilePath, String locationDataFilePath) throws IOException, CsvException {
         // 소스파일 세팅 (comments.csv)
         CSVReader sourceFileCsvReader = new CSVReader(new FileReader(sourceFilePath));
+        sourceFileCsvReader.skip(1);
         sourceFileLines = sourceFileCsvReader.readAll();
 
         // 학교데이터 세팅 (전국초중고대데이터.csv)
@@ -46,7 +48,7 @@ public class SchoolFinder {
 
         int firstFilteredCount = 0;
         int secondFilteredCount = 0;
-        int cannotFoundCount = 0;
+        int autoPickCount = 0;
         Map<String, Integer> schoolCountMap = new HashMap<>();
 
         for (String[] line : sourceFileLines) {
@@ -101,16 +103,24 @@ public class SchoolFinder {
             }
 
             log.warn("(WARNING)알수없는 라인\n\n{}\n", String.join("", line));
-            cannotFoundCount++;
+        }
+
+        int averageFoundIndex = getAverageFoundIndex();
+        log.info("중복 검출 수: {}개", holdSchoolResults.size());
+        log.info("사용자들의 학교명 평균 위치 인덱스: {}", averageFoundIndex);
+        for (Map<Integer, String> holdResults : holdSchoolResults) {
+            int nearIndex = getNearIndex(averageFoundIndex, holdResults.keySet());
+            schoolCountMap.merge(holdResults.get(nearIndex), 1, Integer::sum);
+            log.info("사용자 평균 데이터에 의거 선택 값: {}", holdResults.get(nearIndex));
+            autoPickCount++;
         }
 
         log.info("==========모든 필터링 종료==========");
         log.info("1차 필터(한글제외 모든 문자제거) 발견 학교 수: {}개", firstFilteredCount);
         log.info("2차 필터(약어) 발견 학교 수: {}개", secondFilteredCount);
-        log.info("발견된 학교 수: {}개, 알수없는 라인: {}개",
-                firstFilteredCount + secondFilteredCount,
-                cannotFoundCount);
-
+        log.info("사용자 평균 데이터에 의거해 결정된 학교 수: {}개", autoPickCount);
+        log.info("발견된 학교 수: {}개",
+                firstFilteredCount + secondFilteredCount + autoPickCount);
         return schoolCountMap;
     }
 
@@ -150,7 +160,7 @@ public class SchoolFinder {
     }
 
     private String filteringSchool(String line, List<School> schoolList) {
-        Map<Integer, String> foundMap = new HashMap<>();    // 중복검출 시 더 먼저 적은 학교를 찾기위한 Map 구조
+        Map<Integer, String> foundSchoolMap = new HashMap<>();   // 검출 학교 저장 리스트
         List<String> foundAddressList = new ArrayList<>(); // 댓글에 언급된 지역명 저장할 리스트
         List<School> schoolsInAddress;  // 특정 지역에 소재하고 있는 학교 리스트
         Comparator<School> desc = (s1, s2) -> Integer.compare(s2.getName().length(), s1.getName().length());
@@ -169,45 +179,42 @@ public class SchoolFinder {
                 if (isDefaultName(address, school.getName())) { // 지명 + 기본이름으로 쓰는 학교 건너뛰기 (ex: 삼척중학교, 강릉고등학교)
                     continue;
                 }
-                if (line.contains(school.getName().replace(address, ""))) {
+                if (line.contains(school.getName().replace(address, ""))) { // 지명을 쓰지 않은 학교명까지 커버하기 위해 지명 삭제 후 검출
                     int index = schoolList.indexOf(school);
-                    foundMap.put(line.indexOf(school.getName().replace(address, "")), schools.get(index).getName());
-//                    avrageFindIndex = updateAverageIndex()
+                    foundSchoolMap.put(line.indexOf(school.getName().replace(address, "")),
+                            schools.get(index).getName());
+                    foundIndexSum.merge("indexSum", line.indexOf(school.getName()), Integer::sum);
+                    foundIndexSum.merge("lengthSum", line.length(), Integer::sum);
                     line = line.replace(school.getName().replace(address, ""), "");
                 }
             }
-            if (!foundMap.isEmpty()) {  // 검출 되었다면 더이상 진행하지 않고 중단
+            if (!foundSchoolMap.isEmpty()) {  // 검출 되었다면 더이상 진행하지 않고 중단
                 break;
             }
         }
 
         // 검출 안되었을 경우 전체 탐색
-        if (foundMap.isEmpty()) {
+        if (foundSchoolMap.isEmpty()) {
             for (School school : schoolList) {
                 if (line.contains(school.getName())) {
                     int index = schoolList.indexOf(school);
-                    foundMap.put(line.indexOf(school.getName()), schools.get(index).getName());
+                    foundSchoolMap.put(line.indexOf(school.getName()), schools.get(index).getName());
+                    foundIndexSum.merge("indexSum", line.indexOf(school.getName()), Integer::sum);
+                    foundIndexSum.merge("lengthSum", line.length(), Integer::sum);
                     line = line.replace(school.getName(), "");
                 }
             }
         }
 
-        // 중복검출(2개 이상) 시 유효 데이터 판단
-        if (foundMap.size() > 1) {
-            log.info("!!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!\n");
+        // 중복검출(2개 이상) 시 저장 후 판단 보류
+        if (foundSchoolMap.size() > 1) {
+            log.info("!!!!!!!!!!!!!중복검출 데이터 감지 판단 보류!!!!!!!!!!!!!\n");
+            holdSchoolResults.add(foundSchoolMap);  // 보류된 판단은 모든 검출이 끝나고 평균값에 의거해 처리한다
 
-            int i = 0;
-            for (Map.Entry<Integer, String> entry : foundMap.entrySet()) {
-                log.info("{}. {}\n", ++i, entry.getValue());
-            }
-
-            // 판단기준 (댓글에서 처음으로 입력된 학교)
-            int firstFound = foundMap.keySet().stream().mapToInt(v -> v).min().orElseThrow();
-            log.info("pick: {}", foundMap.get(firstFound));
-
-            return foundMap.get(firstFound);
+            return "";
         }
-        return foundMap.values().stream().findFirst().orElse("");
+
+        return foundSchoolMap.values().stream().findFirst().orElse("");
     }
 
     private boolean isDefaultName(String address, String name) {
@@ -252,7 +259,19 @@ public class SchoolFinder {
         return schoolName;
     }
 
-    private int updateAverageIndex(int index, int length) {
-        return index / length * 100;
+    private int getAverageFoundIndex() {
+        return (int)(foundIndexSum.get("indexSum") / (double)foundIndexSum.get("lengthSum") * 100);
+    }
+
+    private int getNearIndex(int averageIndex, Set<Integer> indexSet) {
+        int nearIndex = indexSet.stream().findFirst().orElseThrow();
+        for (int i : indexSet) {
+            int abs = Math.abs(averageIndex - i);
+            if (abs < nearIndex) {
+                nearIndex = i;
+            }
+        }
+
+        return nearIndex;
     }
 }
