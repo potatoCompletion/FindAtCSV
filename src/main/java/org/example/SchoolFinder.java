@@ -93,7 +93,7 @@ public class SchoolFinder {
             if (!foundSchool.isBlank()) {
                 schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
-                log.info("약어에서 발견: {}\n\n{}", foundSchool, line);
+                log.info("약어에서 발견: {}\n\n{}\n", foundSchool, line);
                 secondFilteredCount++;
                 continue;
             }
@@ -149,21 +149,21 @@ public class SchoolFinder {
 
     private String filteringSchool(String line, List<School> schoolList) {
         Map<Integer, String> foundMap = new HashMap<>();    // 중복검출 시 더 먼저 적은 학교를 찾기위한 Map 구조
-        List<String> findedAddressList = new ArrayList<>();
-        List<School> validList;
+        List<String> foundAddressList = new ArrayList<>(); // 댓글에 언급된 지역명 저장할 리스트
+        List<School> schoolsInAddress;  // 특정 지역에 소재하고 있는 학교 리스트
         Comparator<School> desc = (s1, s2) -> Integer.compare(s2.getName().length(), s1.getName().length());
 
         // 댓글에 소재지에 대한 정보 있는지 검출
         for (String address : addressList) {
             if (line.contains(address)) {
-                findedAddressList.add(address);
+                foundAddressList.add(address);
             }
         }
 
         // 소재지가 파악되었다면 해당 소재지에 존재하는 학교로 우선 탐색
-        for (String address : findedAddressList) {
-            validList = schoolList.stream().filter(s -> s.getAddress().contains(address)).sorted(desc).toList();
-            for (School school : validList) {
+        for (String address : foundAddressList) {
+            schoolsInAddress = schoolList.stream().filter(s -> s.getAddress().contains(address)).sorted(desc).toList();
+            for (School school : schoolsInAddress) {
                 if (isDefaultName(address, school.getName())) { // 지명 + 기본이름으로 쓰는 학교 건너뛰기 (ex: 삼척중학교, 강릉고등학교)
                     continue;
                 }
@@ -173,7 +173,7 @@ public class SchoolFinder {
                     line = line.replace(school.getName().replace(address, ""), "");
                 }
             }
-            if (!foundMap.isEmpty()) {
+            if (!foundMap.isEmpty()) {  // 검출 되었다면 더이상 진행하지 않고 중단
                 break;
             }
         }
