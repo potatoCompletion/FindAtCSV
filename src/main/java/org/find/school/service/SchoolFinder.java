@@ -18,7 +18,8 @@ public class SchoolFinder {
     private final List<School> filteredSchools;
     private final List<String> addressList;
     private List<Map<Integer, String>> holdSchoolResults = new ArrayList<>();
-    private Map<String, Integer> foundIndexSum = new HashMap<>();
+    private int foundIndexSum = 0;
+    private static final String DUPLICATED = "중복검출";
 
     public SchoolFinder(String sourceFilePath, String schoolDataFilePath, String locationDataFilePath) throws IOException, CsvException {
         // 소스파일 세팅 (comments.csv)
@@ -61,10 +62,13 @@ public class SchoolFinder {
 
             if (!filteredLine.contains("대학교")) {    // 사대부고, 사대부중 필터링을 위한 검증
                 foundSchool = filteringSchool(filteredLine, schools);
-                if (!foundSchool.isBlank()) {
+                if (foundSchool.equals(DUPLICATED)) {
+                    log.info("중복검출 라인:\n\n{}\n", String.join("", line));
+                }
+                if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
                     foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
                 }
-                if (!foundSchool.isBlank()) {
+                if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
                     schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
                     firstFilteredCount++;
@@ -91,10 +95,13 @@ public class SchoolFinder {
                     .replace("여대", "여자대");
 
             foundSchool = filteringSchool(filteredLine, filteredSchools);
-            if (!foundSchool.isBlank()) {
+            if (foundSchool.equals(DUPLICATED)) {
+                log.info("중복검출 라인:\n\n{}\n", String.join("", line));
+            }
+            if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
                 foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
             }
-            if (!foundSchool.isBlank()) {
+            if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
                 schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
                 log.info("약어에서 발견: {}\n\n{}\n", foundSchool, line);
@@ -105,8 +112,8 @@ public class SchoolFinder {
             log.warn("(WARNING)알수없는 라인\n\n{}\n", String.join("", line));
         }
 
-        int averageFoundIndex = getAverageFoundIndex();
-        log.info("중복 검출 수: {}개", holdSchoolResults.size());
+        int averageFoundIndex = getAverageFoundIndex(firstFilteredCount + secondFilteredCount);
+        log.info("중복 검출 댓글 수: {}개", holdSchoolResults.size());
         log.info("사용자들의 학교명 평균 위치 인덱스: {}", averageFoundIndex);
         for (Map<Integer, String> holdResults : holdSchoolResults) {
             int nearIndex = getNearIndex(averageFoundIndex, holdResults.keySet());
@@ -183,8 +190,7 @@ public class SchoolFinder {
                     int index = schoolList.indexOf(school);
                     foundSchoolMap.put(line.indexOf(school.getName().replace(address, "")),
                             schools.get(index).getName());
-                    foundIndexSum.merge("indexSum", line.indexOf(school.getName()), Integer::sum);
-                    foundIndexSum.merge("lengthSum", line.length(), Integer::sum);
+                    foundIndexSum += line.indexOf(school.getName());
                     line = line.replace(school.getName().replace(address, ""), "");
                 }
             }
@@ -199,8 +205,7 @@ public class SchoolFinder {
                 if (line.contains(school.getName())) {
                     int index = schoolList.indexOf(school);
                     foundSchoolMap.put(line.indexOf(school.getName()), schools.get(index).getName());
-                    foundIndexSum.merge("indexSum", line.indexOf(school.getName()), Integer::sum);
-                    foundIndexSum.merge("lengthSum", line.length(), Integer::sum);
+                    foundIndexSum += line.indexOf(school.getName());
                     line = line.replace(school.getName(), "");
                 }
             }
@@ -211,7 +216,7 @@ public class SchoolFinder {
             log.info("!!!!!!!!!!!!!중복검출 데이터 감지 판단 보류!!!!!!!!!!!!!\n");
             holdSchoolResults.add(foundSchoolMap);  // 보류된 판단은 모든 검출이 끝나고 평균값에 의거해 처리한다
 
-            return "";
+            return DUPLICATED;
         }
 
         return foundSchoolMap.values().stream().findFirst().orElse("");
@@ -259,8 +264,8 @@ public class SchoolFinder {
         return schoolName;
     }
 
-    private int getAverageFoundIndex() {
-        return (int)(foundIndexSum.get("indexSum") / (double)foundIndexSum.get("lengthSum") * 100);
+    private int getAverageFoundIndex(int totalFoundCount) {
+        return foundIndexSum / totalFoundCount;
     }
 
     private int getNearIndex(int averageIndex, Set<Integer> indexSet) {
