@@ -1,18 +1,18 @@
-[2023-02-22 09:34:15.178][INFO ] --- [main] org.example.Main[main:15] - ==========학교 검색 시작========== 
-[2023-02-22 09:34:15.430][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:43] - 소스파일 데이터 수: 1001개 
-[2023-02-22 09:34:15.431][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:44] - ==========필터링 시작========== 
-[2023-02-22 09:34:15.435][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:47.916][INFO ] --- [main] org.find.Main[main:16] - ==========학교 검색 시작========== 
+[2023-02-22 14:43:48.179][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:43] - 소스파일 데이터 수: 1001개 
+[2023-02-22 14:43:48.181][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:44] - ==========필터링 시작========== 
+[2023-02-22 14:43:48.185][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 message
  
-[2023-02-22 09:34:15.447][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 창현고등학교
+[2023-02-22 14:43:48.196][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 창현고등학교
 
 [수원, 창현고 짜장면 먹고싶어요
 사진은 제가 먹다남은 짬뽕이네요
 재학중은 아니지만 모교학생분들의 배를 불러드리게 하고자 이 이벤트에 참여하는 바입니다
 (팔로워님들 좋아요 한번씩 부탁합니다..)]
  
-[2023-02-22 09:34:15.459][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 영문중학교
+[2023-02-22 14:43:48.207][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 영문중학교
 
 [용인 , 영문중
 안녕하세요 에버랜드 아시나요 ㅎㅎ 그쪽에있는 나름 운치를 느낄수있는 정말 좋은 학교 영문중이에요 ! 선생님들도 열심히 수업도 해주시고 저는 3학년 학생부회장입니두 ! 저는 부회장으로 학겨를 위해 열심히 일을 하기도 하고요 이런 우리 친구들을 위해 짜장면 한번 먹고갈께요 ^^!  산 위에 있는 학교에
@@ -20,13 +20,13 @@ message
 곧 졸업하기전에 다같이 짜장면먹고 웃고 싶어요 우리 영문중 산이라그런지 운동도 잘해요 모든지 열심히인 우리중학교 ^-^♡ 우리 짜장면 먹고 말도 잘듣자
 ? 댓글 좋아요?]
  
-[2023-02-22 09:34:15.465][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
+[2023-02-22 14:43:48.214][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
 
 [대전 글꽃중이요 ♡♡
 
 시험 끝난지 얼마되지않았는데 그동안 받은 스트레스와 떨어진성적으로 인한 절망감을 학교 친구들, 선후배님들과 함께 짜장면을 나눠먹으면서 힐링하고싶네요 ~ ??]
  
-[2023-02-22 09:34:15.474][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.224][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [❤❤❤❤❤❤❤❤❤❤❤❤❤❤고양시 행신중❤❤❤❤❤❤❤❤❤❤❤❤❤❤
 
@@ -34,7 +34,7 @@ message
 
  김서현 김요아 배정윤 김채현 박현홍 이주연 김가연 박희정 김소연 ㄱ]
  
-[2023-02-22 09:34:15.479][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
+[2023-02-22 14:43:48.230][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
 
 [부천, 경기국제통상고등학교
 
@@ -57,22 +57,22 @@ message
 
 #경기도 #부천 #경기국제통상고등학교 #배달의민족 #자장면 #이벤트]
  
-[2023-02-22 09:34:15.484][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서울공연예술고등학교
+[2023-02-22 14:43:48.234][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서울공연예술고등학교
 
 [서울, 서울공연예술고요!! 지금 3학년선배님들은 입시에 2학년들은 잦은 공연과 시험에 1학년들은 2학년준비애 찌들어있어요 먹여주세요 ㅠㅠㅠ 
 정유리ㅍ은경 신은휘 송아현 이유진 최수림 김예나 재연안 정동주 김병규 양이엘 유상원 이창훈 이채원]
  
-[2023-02-22 09:34:15.494][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.245][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 ❣️❤️❣️❤️❣️서울연희미용고등학교 ❣️❤️❣️❤️❣️❤️
 저희학교애들이 다 전국구라 수원 안양 천안 아산 잠실 등등멀리서 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
 수수진강혜원맹채빈최수인박가연양수연이수진김도연손영랑이승민수빈김보은일이삼최하나홍도희최지현복경미연희최재희
  
-[2023-02-22 09:34:15.500][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서강대학교
+[2023-02-22 14:43:48.251][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서강대학교
 
 [서울 서강대학교]
  
-[2023-02-22 09:34:15.509][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
+[2023-02-22 14:43:48.259][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
 
 [최윤라청라국제도시,인천체고❤
 허허벌판...이에요..아무것도없어요 
@@ -82,64 +82,64 @@ message
 운동선수인데 급식도 맛이업어요..
 저희운동선수들한테 자장면부탁드립니다?]
  
-[2023-02-22 09:34:15.520][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 세화여자중학교
+[2023-02-22 14:43:48.270][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 세화여자중학교
 
 [서울 세화여중
 
 저희학교의 먹방은 정말로 국주언니 저리가라 입니다!! 자장면을 먹으면 당연히 탕수육도 시키고 탕수육을 시키면 당연히 짬뽕도 시킬 것이고 짬뽕을 켜서 다먹으면 뭔가 부족한 느낌이 들 것 이고 그러면 치킨을 가게별로 종류별로 사먹을 것입니다♥ 저희학교 매점도 없어요ㅠㅠ 제발 자장면을 저희에게 주세요 최근 시험이 끝나고 힘든 1,2학년과 이제 곧 시험을 보는 3학년 언니들을 위해서 자장면을 보내주세요ㅠ 박세연 이가원 김은빈 김은빈 정은서 장세미 이하연 박재은 박세린 박세린 손영은 지윤 최유진 안은제 곽혜나 곽혜나 권나연 손지완 김나연 정보원 정다빈 김다연 김도연 김윤경 홍혜진]
  
-[2023-02-22 09:34:15.521][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
+[2023-02-22 14:43:48.271][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
  
-[2023-02-22 09:34:15.521][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 1. 중앙여자중학교
+[2023-02-22 14:43:48.271][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 1. 중앙여자중학교
  
-[2023-02-22 09:34:15.521][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 2. 중앙여자고등학교
+[2023-02-22 14:43:48.271][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 2. 중앙여자고등학교
  
-[2023-02-22 09:34:15.523][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:204] - pick: 중앙여자중학교 
-[2023-02-22 09:34:15.526][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.273][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:204] - pick: 중앙여자중학교 
+[2023-02-22 14:43:48.277][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 서울시 구로구 가리봉동 서울연희미용고등학교
 나오는 급식이라고는 말라빠진 육포같은 탕수육 소금 들이부은 무말랭이 맛없다 못해 비린 소세지 이런 수준의 급식인데 제발 짜장면이라도 먹게 해주세요 ㅠㅠㅠ 맛없어서 밥안먹고 쫄쫄 굶다가 집에 가는 학생들이 널리고 줄을 섰습니다..?
  
-[2023-02-22 09:34:15.529][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서울송화초등학교
+[2023-02-22 14:43:48.281][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서울송화초등학교
 
 [서울송화초등학교
 
 안녕하세요 배민님~일교차 심한날씨 밤이되면 쌀쌀한 날씨 겨울이 찾아와 추워지는 날씨에 감기걸리시지 않을까 걱정 되는 마음입 니다 음 중간고사 이벤트라 그런지 여기 올린 학교가 거의 중학고 고등학교 대학교 인것같은데 저희는 초등학 교입니다!! 일단 서울 서쪽부근에 위치하는곳, 도시와 조금만 이동하면 산과 강을 만날수있는곳입니다 저희초 등학교는요 귀엽고 식욕넘쳐나는 1,2학년 아이들,성장 하며, 항상배고픈 3,4학년들 사춘기가 다가오며 입에 항상 무언가 있어야 하는, 5,6학년들이옹기종기모여있 는즐거운학교입니다! 이런 저희 학교 학생들인지라 학교 오자마자 급식표를 확인하고 그날따라 맛있는 급식이나온 다면 수업시간에도 쉬는시간에도 화장실 에서도운동장에서도 다가올 급식시 간을 기다리는 아이들입니다 그래도 막상 급식을 먹어보 면 맛있긴하지만 차지않는양에 조금 실망하며 돌아서는 아이들입니다 하지만 밥을먹고 자장면 자장면을먹고 밥 뭐든 상관없습니다.저희의 배가 찰수있 다면요! 물론 저희 가 당첨되야 알고보는 일이긴하지만요 그리고 우리 학교 학생들이 중고등학교언니오빠들 보단 아니지만 시험 과 날이갈수록 어려워지는 수학 그리고 학원의 선행등으 로 지쳐있는 우리 학교 학생들에게 한줄기 빛이 되줄 배 민의 자장면! 곧다가 올 겨울방학과 수학여행 만으로도 기쁜데 자장면을 먹게 된다면 얼마나 저희에게 힘이 될까 요? 기왕이면 탕수육도 먹으면 좋겠지 만 자장면 주시는 것도 감사히 생각하고탕수육쯤이야 저희 의 사비를 털어 서라도 먹겠습니다! 추워지는 날씨에 친구 들과 함께모여 따뜻한 짜장면을 즐겁게 먹는것만큼 기분 좋은일은 없을 것같네요 그럼 이만 말을 줄이도록 하겠습 니다! 배민 앞 으로도 많이 사용하도록 할게요!!]
  
-[2023-02-22 09:34:15.532][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 잠신중학교
+[2023-02-22 14:43:48.284][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 잠신중학교
 
 [서울, 잠신중이요!!!!
 저희의 급식은 처음에는 좋았지만 나날이 엉망이 되어가고.. 저번주에는 급식의 국에 꿈틀거리는 손가락의 한마디만한 애벌레가 나왔습니다.. 저희들은 급식을 먹기위해 학교에 오는건 아니지만 힘든 공부속에 학교에서 먹는 맛있는 급식에 대한 학생들의 로망이 있지않습니까.. 저희는 그것까지는 바라지 않습니다. 그냥 단지 육천원짜리 짭쪼롬한 짜장면 한그릇을 원할뿐입니다.. 불쌍한 저희들을 도와주시옵소서ㅠㅜㅜㅜ]
  
-[2023-02-22 09:34:15.540][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
+[2023-02-22 14:43:48.292][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
 
 [부천 경기국제통상고 제친구홍요한 김빈 권혁민 입니다 먼저왼쪽부터 제친구는 밥이없어서 못먹어 말랐습니다 가운데친구는 페북스타 김진수 닮아서 음식점가도 못먹구요 용돈도 못받고 있습니다 그리고 오른쪽 친구는 중국에서와서 한국말이 서투릅니다 꼭 제친구들을 위해 배달의민족 이 꼭 도와줬으면 좋겠습니다]
  
-[2023-02-22 09:34:15.545][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인하대학교
+[2023-02-22 14:43:48.297][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인하대학교
 
 [인천, 인하대학교
 자장면을 먹으면 시험 대박나서 배민으로 치킨도 시켜 먹고 술도 한잔 하고 좋을 것 같습니다!??
 중간고사 공부하느라 다들 힘든데 인하대생들 전부 화이팅!!??이나라이이나라이지수이유진손상호정구감윤승환문희진김채연김정근김도희 태그릴레이 기기]
  
-[2023-02-22 09:34:15.548][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 홍익대학교사범대학부속여자중학교
+[2023-02-22 14:43:48.300][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 홍익대학교사범대학부속여자중학교
 
 [?서울,홍익대학교부속여자중학교? 
 안녕하세요 저는 홍익대학부속여자중학교에 다니는 3학년 학생입니다!1,2,3학년 전교생 합쳐서 500명도 안돼요? 1000그릇은 괜찮으니.. 선생님들 포함으로 500그릇이라도 먹고싶어요!!! 여중인 저희는 먹을것으로 달래는데 짜장면으로라도 저희 마음을 달래고 싶어요...? 짜장면이 먹고싶습니다!!! 도와죠 홍익친규들?
 정단비김윤서강예진이하늘강주연조유정임유미임채연진세민문소희김보경김보영오지현이민지강민지임서현송윤지정혜윤하지윤안지현차정우윤정윤김서연주다영이연수차연서정예지]
  
-[2023-02-22 09:34:15.561][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.312][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 ❤❤서울 연희미용고등학교❤❤
 저희 고등학교는 학생들이 전국구에서 모이다보니 아침도 못먹고 일찍 학교에오는 친구들이 태반이에요..?? 점심도 급식으로 안나오고 도시락업체에서 신청받아 먹는데 너무 맛없어서 굶거나 매점가서 먹거나 집에서 싸와서 먹는 학생들도있어요??
 서울 연희미용고등학교 짜장면이 먹고싶어요!? 도와주세요 앙기모찌!!!!?????
 수진 원예진 박가연 맹채빈 일이삼 양수연 박민지 이승민 수빈 예진 김보은 강수연 이세빈 김도연 이수진 최하나 김민지 이미연
  
-[2023-02-22 09:34:15.568][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.319][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중
 이번 태풍때문에 급식이밀려서 먹기로했던 짜장면이날라갔습니다ㅠ오랜만에 먹는 짜장면인데 배달에민족에서 좋은 이벤트를 열어주셔서 감사합니당 ㅎㅎ]
  
-[2023-02-22 09:34:15.570][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.321][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산  개금여중
 
@@ -147,22 +147,22 @@ message
 배민에서주는 짜장면먹고 기받고 원서넣고싶어용!!!!!
 이런 이벤트열어주셔서감사합니당??]
  
-[2023-02-22 09:34:15.574][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
+[2023-02-22 14:43:48.325][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
 
 [서유진 박우정 이하윤 권유진 임수정 한아름 이하늘 얘들아 다 달아ㅎ.ㅎ
 충북 오창 양청중❤????
 1.2.3학년 다같이 짜장면 먹고싶어요ㅠㅠ 학교에서 배고파서 죽을 것 같아요 보내쥬세여❤❗]
  
-[2023-02-22 09:34:15.578][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.329][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:15.581][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.333][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 경기도 시흥시 군서중학교 !!!@#!!# 저희중 좀있으면 축제랑 체육대회가 이틀연속으로 있어요 ㅠㅠㅜㅜ 그거 준비하느라 너무 바쁩니다 ㅜㅜㅜㅜ 이번에 짜장면 천그릇 온다면 정말 특별하게 준비할수 있을꺼같아요 ????
  
-[2023-02-22 09:34:15.584][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구가톨릭대학교
+[2023-02-22 14:43:48.335][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구가톨릭대학교
 
 [❤경북 경산 하양읍, 대구가톨릭대학교❤
 사랑합니다 대가대학생여러분!!
@@ -176,78 +176,78 @@ message
 잘 부탁드려요❤
 류영준 전윤종 전현중 정다영 김계정 김건호]
  
-[2023-02-22 09:34:15.587][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.339][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 서울,연희미용고등학교
 저희학교애들이 다 전국구라 멀리서 아침도 못먹고 첫차타고 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
 
 수수진이이수진원원예진김김유림예예진이승민강강혜원맹맹채빈김김도연김김보은김김미은손손영랑최최하나홍홍도희이홍영
  
-[2023-02-22 09:34:15.594][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 봉의중학교
+[2023-02-22 14:43:48.346][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 봉의중학교
 
 [춘천 봉의중 조은진 이정원 박세은 김해린 함정인 김서연 이예림 이민규 이민혁 김시연 심효은 김지수 김다은 남수민 이예원 하령은 양유정 정효빈 허채연 주연이 짜장면 먹고싶엉 ㅈㅅ 보이는애들 태그함 안될거 같지만 태그 ㅋㅋㅋㅋㅋㅋㅋㅋ......사랑해 ^^ ㅈㅅ]
  
-[2023-02-22 09:34:15.595][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 김천대학교
+[2023-02-22 14:43:48.347][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 김천대학교
 
 [김천 , 김천대학교
 사드배치때문에 학생들이 여러모로 고생하며 사드배치 결사 반대에 힘을 주고 있습니다.. 피해도 많이 입고 굶주리고 반대운동을 하고 있을 저희 학생들을 위해 짜장면 몇그릇이라도 베풀어 주신다면 감사할뿐아니라 공부또한 열심히 할 수 있을것같습니다 배달의 민족 최고❤️
 최혜린 이힌샘 이주영 이다영 송정아 정다영 김지윤 장아현 이혜린 남소연
 애들아 김천역에서 짜장면 먹자 ! 오늘도 부지런히 반대운동 하자 !^^ 친구들 화이팅 ᕦ(ò_óˇ)ᕤ]
  
-[2023-02-22 09:34:15.598][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 화정중학교
+[2023-02-22 14:43:48.349][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 화정중학교
 
 [문소윤정은비 경기도 고양시 화정중!! 저희 학교 공부 열심히해서 가끔은 짜장면 먹으면서 에너지 충!!전!! 하고 시퍼요ㅠㅠㅠ 이번에 선배님들도 힘들게 시험 끝내시고 해서!! 꼭 전교생 다같이 수고했단 의미로 짜장면 먹개 해주세여~~~  이번애 짜장면 먹으면 담애도 계속 배달의 민족 음식 시켜먹을꺼 같아요! 진짜 진짜 믿습니다!! 배달의 민족!!!!♡]
  
-[2023-02-22 09:34:15.608][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 홍익대학교사범대학부속여자중학교
+[2023-02-22 14:43:48.359][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 홍익대학교사범대학부속여자중학교
 
 [김민서 오민영 최영진 주다영 송지수 윤정윤 차정우 이연수 정단비♥♥서울 홍익대학교사범대학부속여자중학교♥♥
 우리 짜장면 먹어보쟈!! 우리 중3이여서 좀잇으면 기말에 고등학교 준비고 해야되는데.....짜장면 먹고 힘내야지....ㅠ]
  
-[2023-02-22 09:34:15.614][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.365][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중짜장명주세용 석우중?]
  
-[2023-02-22 09:34:15.618][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 오금중학교
+[2023-02-22 14:43:48.369][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 오금중학교
 
 [서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중 서울.오금중]
  
-[2023-02-22 09:34:15.620][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
+[2023-02-22 14:43:48.372][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
 
 [충북 오창 양청중이요 .....하하하 3학년이에요 물론 고쓰리가 더 힘들겠지만 저희도 고등학교 실업계나 마이스터고 가는친구들은 면접에 시험에 원서접수에 정말 바쁘거든요 그리고 고입고사가 폐지된 바람에 시험끝난지 일주일도 채 안되었는데 또 시험기간이에요...! ㅠㅠㅠㅠ제발저희에게 희망을 주세요 ㅠㅠㅠㅠㅠ!!]
  
-[2023-02-22 09:34:15.622][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 안성여자중학교
+[2023-02-22 14:43:48.374][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 안성여자중학교
 
 [안성에 있는 안성여중인데 저희 1학기 체육대회 6월쯤 선생님이 학급 돈 모이면 사주신다 그러셨는데 돈이 모자라서 아직까지 못 먹고 있어요 다른반 애들은 단합회 했는데 저희반은 선생님이 애들 말 안듣는다고 단합회 하면 분위기 깨질거 같다고 하시면서 단합회도 심지어 안했어요.. 추억삼아
 자장면이라도 꼭 먹고 싶어요?]
  
-[2023-02-22 09:34:15.624][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.376][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 영동, 영동인터넷고등학교
 
 저는 버스가 하루에 몇대 다니지 않는 곳에서 살아서 짜장면!!!시켜먹그면 다뿔어요!!!!!!!!!!????????? 멀쩡한 짜장면 친구들과 나눠먹고 싶습니닷❣️❣️❣️❣️❣️❣️
  
-[2023-02-22 09:34:15.626][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
+[2023-02-22 14:43:48.378][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
 
 [충북오창양청중이요! 짜장면 사랑하는 중학교에요♥
 인증샷 보낼께요!!
 2.3학년 막 시험끝나셔서 좋은타이밍!! 부탁드릴께요!!❗❗❗❗❗❗]
  
-[2023-02-22 09:34:15.633][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.387][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 경기도 시흥시 군서중학교 입니다! 저희중 요즘 축제가 이틀연속으로 해서 다들 힘들어합니다 ㅠㅜㅜ 이번에 짜장면 천그릇이 온다면 힘을 내서 열심히 할수있을것같아요!!❤❤❤❤❤❤❤❤?????????????????????
  
-[2023-02-22 09:34:15.637][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.391][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 거창, 거창국제학교!!!
 저희 급식 한끼에 6000원인데 진짜 상태가 많이 심각해요ㅠㅠ 먹어도 먹은 것 같지 않고 항상 허기져있어요ㅜㅜㅜㅜㅜ 7시반에 등교해서 9교시 수업을 하면서 의사의 꿈을 펼쳐가고 있는 저희 :) 공부 열심히 하는 저희를 위해 짜장면♡♥♡♥♡♥♡ 주신다면 최선을 다해 먹을 자신 있어욯ㅎㅎㅎㅎㅎㅎㅎㅎ :) 
 전교생 수도 적고 기숙사 학교라서 매점 같은 것도 없고 시골이라서 시켜먹을 음식이 많지도 않은 저희 학교에서 고생하는 학생들을 위해 짜장면 주세요ㅜㅜㅜㅜㅜㅜ♥ 
 김란희 Erica Sohn 박소연 김은규 김유림 홍순호 엄지원 이민영 반민휴 조민서 정영교 한 줄씩 써봐랑
  
-[2023-02-22 09:34:15.639][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 용문중학교
+[2023-02-22 14:43:48.394][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 용문중학교
 
 [우리가 어떤 민족입니까? 맞습니다~~~ 바로 배달의 민족입니다, 배달의 역사는 조선시대 훨씬 전부터 전해져 내려와 지금 현재까지 존재하는 우리의 음식 문화인 만큼 이름부터 남다른 배달의 민족 앱을 사용합니다❤❤❤ 타사 앱인 여O요는 볼필요없이 무슨앱? 배달의 민족앱 입니다. 서울 용문중 3학년 최고학년으로써 우리 후배들 배불리 먹는 모습보고 고등학교로 진학 하고 싶습니다.❤❤ 세계가 종말하는 그 날까지 배달의 민족앱 흥해라!!~~ ?????]
  
-[2023-02-22 09:34:15.644][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.400][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 서울 연희미용고!!
 서로 학교거 멀어서 아침도못먹고 
@@ -255,54 +255,54 @@ message
 짜장면먹고싶어요ㅠㅠㅠ
 박민지 김보은 맹채빈 강수연 박가연 원예진 강혜원 수진 김유림 이수진 이세빈 일이삼 김미은
  
-[2023-02-22 09:34:15.649][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인하대학교
+[2023-02-22 14:43:48.407][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인하대학교
 
 [인천 인하대학교 자장면 보내주시면 저도 한 장 받아가겠습니닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ]
  
-[2023-02-22 09:34:15.656][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
+[2023-02-22 14:43:48.414][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
 
 [짜장면 너무 먹고샆어요 정말먹고싶어요 간절해요ㅜㅜㅜㅜㅜㅜㅜ 제발요요용 요즘 짜증이 많아서 저는 짜장면을먹고 마음을 다스릴려구용 그래서 서울 진선여중이여영]
  
-[2023-02-22 09:34:15.660][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
+[2023-02-22 14:43:48.418][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
 
 [제발요인천체고요ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ여기는시내에나가려면 택시타고오려걸려요ㅜㅜㅜ체전도내일이면끝나는날인데 진짜죽을것같은체전준비하느라힘들었을 저희운동선수들에게 짜장면한그릇씩배달해주신다면 정말감사드리겠습니당❤❤❤❤]
  
-[2023-02-22 09:34:15.663][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.422][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 서울연희미용고등학교요 못 먹고 삽니다 제발 한 번만 자비를 베풀어 주세요 급식실이 없습미다 매점에서천원짜리 빵 먹기도 힘듭니다 죄송하지만 저희에게 양보해 주세요 배달의 민족 파이팅 연희미용고학생들파이팅
  
-[2023-02-22 09:34:15.666][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.425][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중이요]
  
-[2023-02-22 09:34:15.671][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 사직여자중학교
+[2023-02-22 14:43:48.431][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 사직여자중학교
 
 [부산 사직여중]
  
-[2023-02-22 09:34:15.678][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서강대학교
+[2023-02-22 14:43:48.437][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 서강대학교
 
 [서울 서강대학교
 제가 지갑을 분실했습니다 부모님께는 뺨싸다구 맞을까봐 말씀 못 드렸습니다. 거기에 제 이번달 용돈이 들었거든요 전액 현금으로요. 저 지금 돈꿔서 밥먹습니다. 그나마도 1일1끼입니다. 살려주세요]
  
-[2023-02-22 09:34:15.691][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
+[2023-02-22 14:43:48.449][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
 
 [인천 청라 인천체고요ㅠㅠ 체고라서 운동을하느라 항상 금방 배가고픈데먹을걸먹으려면 택시타고 나가야해요ㅠㅠ
 이제 전국체전도끝낫으니 부탁드립니다?]
  
-[2023-02-22 09:34:15.693][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문산중학교
+[2023-02-22 14:43:48.451][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문산중학교
 
 [제발 진주 경남 문산중에 주세요 기브미 짜장면 ㅠㅠ 학교 메번 아침마다 스쿨버스 맞춰가기도 힘든대 짜장면 한그릇 먹으면 기분좋아서 날라갈듯 하네요 ㅎㅎ 제발 짜장면 주세요ㅠㅠ 배달의 민족 짱 진주문산 짱  문산중짱 짜장은 급식에도 잘안나와요 ㅠ 제발 저희문산중에 해주세요 사랑합니다 배달의 민족]
  
-[2023-02-22 09:34:15.696][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
+[2023-02-22 14:43:48.454][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양청중학교
 
 [충북오창양청중♡흑흑...제 전재산입미당...흑흑흐그흐그흐긓흫...흐그흐그.ㅎ그........흐르흐흫흫르그르르글.........짜장면 먹고싶어도 못먹어요...ㅎ흛르..흑흐.ㅇ.....ㅎ.흑흑......... 가영이와 양청중모두가 짜장면을 먹을수 있게 좋ㄹ하요뉼러주세요..ㄹ.....흘긓ㅋ흘.ㄱ......흘그흐륵......................흐르그를.ㄱ....]
  
-[2023-02-22 09:34:15.699][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.457][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:15.702][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
+[2023-02-22 14:43:48.459][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
 
 [⭐️김해, 인제대학교⭐️
 짜 라짜짜짜짜〰파게티는 이제 그만!
@@ -311,7 +311,7 @@ message
 
 짜장면 주세용??인제대학교 최고✨]
  
-[2023-02-22 09:34:15.704][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
+[2023-02-22 14:43:48.461][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
 
 [네...제발부탁드려요?
 저희 전국체전도 다음주면 다끝나요
@@ -319,63 +319,63 @@ message
 제발 인천체고요?
 인천체고❤️????]
  
-[2023-02-22 09:34:15.707][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전신일여자중학교
+[2023-02-22 14:43:48.464][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전신일여자중학교
 
 [대전광역시 중구 부사동 대전신일여중 
 
 학교에서 짜장면이 나오는데 그냉동 면 맛이 너무 토나옵니다 원조 짜장면응 먹어야 됩니더 먹게해주세요 급식먹을때 마다 토할거 같아요,,,,♥♥♥]
  
-[2023-02-22 09:34:15.709][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.465][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 강원도 원주시 북원여자중학교 ㅇ.< 북원여중 학생들이 굶주림에 허덕이고 있습니다.. 자장면 1000그릇이 우리 아이들에게 큰 힘이 됩니다..^ㅠ^..
  
-[2023-02-22 09:34:15.712][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.468][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중~]
  
-[2023-02-22 09:34:15.715][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
+[2023-02-22 14:43:48.471][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
  
-[2023-02-22 09:34:15.715][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 1. 이화여자대학교병설미디어고등학교
+[2023-02-22 14:43:48.471][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 1. 이화여자대학교병설미디어고등학교
  
-[2023-02-22 09:34:15.715][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 2. 서울영서초등학교
+[2023-02-22 14:43:48.471][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 2. 서울영서초등학교
  
-[2023-02-22 09:34:15.715][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:204] - pick: 이화여자대학교병설미디어고등학교 
-[2023-02-22 09:34:15.715][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 이화여자대학교병설미디어고등학교
+[2023-02-22 14:43:48.472][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:204] - pick: 이화여자대학교병설미디어고등학교 
+[2023-02-22 14:43:48.472][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 이화여자대학교병설미디어고등학교
 
 [서울, 이화여대병설미디어고등학교 입니다!?
 중간고사 이후로 성적으로 슬퍼하는 저희에게 자장면으로 행복을 선사 해주세요!!! 힘내서 기말고사때 더더 잘보고 기쁜마음으로 친구들이랑 배달의민족에서 치킨시켜먹고싶어요!??
 권은비 김문선 김선주 김수연 김은수 남가희 박주영 서초현 염수빈 Bin Yul Won 유다운 이소휘 전하연 정유정 한승연 허예림 현승희 홍지연 황창정 얘도라 댓글ㄱㄱ 답댓말고 새댓으로ㅎㅎ 학교니까 딴반친구들도 태그해서ㅎㅅㅎ]
  
-[2023-02-22 09:34:15.718][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
+[2023-02-22 14:43:48.475][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:195] - !!!!!!!!!!!!!중복검출 데이터!!!!!!!!!!!!!
  
-[2023-02-22 09:34:15.718][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 1. 성신여자대학교
+[2023-02-22 14:43:48.475][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 1. 성신여자대학교
  
-[2023-02-22 09:34:15.718][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:199] - 2. 서울영문초등학교
+[2023-02-22 14:43:48.475][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:199] - 2. 서울영문초등학교
  
-[2023-02-22 09:34:15.718][INFO ] --- [main] org.example.SchoolFinder[filteringSchool:204] - pick: 성신여자대학교 
-[2023-02-22 09:34:15.719][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 성신여자대학교
+[2023-02-22 14:43:48.475][INFO ] --- [main] org.find.school.service.SchoolFinder[filteringSchool:204] - pick: 성신여자대학교 
+[2023-02-22 14:43:48.475][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 성신여자대학교
 
 [???서울,성신여자대학교???
 높은 언덕을 올라 학교에 도착해서 열심히 공부하는 대학생들에게 단짠단짠의 맛으로 힘을 불어넣어주떼영!! 시험이 얼마 안남았는데 짜장면의 힘으로 학점 올릴게요>_<
 한혜수 민지원 송지현 한나연 곽은지 문예림 박지영 문초록 Ye Eun Yi Yeonhwa Kong]
  
-[2023-02-22 09:34:15.720][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문선초등학교
+[2023-02-22 14:43:48.477][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문선초등학교
 
 [경상남도 사천시 문선초요 ㅜㅜㅜ저희 학교 에서는 진행하는 행사가 많아서 친구들이 너무 열심히 하루하루 힘들게 연습하고 연습하고 and 연습하고 지치고 힘든데 급식은 정말 맛이없습니다ㅜㅜ 제발 저희 초 급식충 친구들에게 짜장면 을 주세요ㅜㅜ 급식에 짜장면이 있어도 면이 서로 하나가 되있어요 ㅎㅎ 6학년 졸업하기전에 친구들이랑 이런 경험 꼭한번 하고 싶어요 배달의 민족님.....사랑합니다?]
  
-[2023-02-22 09:34:15.729][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 만월중학교
+[2023-02-22 14:43:48.486][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 만월중학교
 
 [조유진 저희 학교로 말씀드리면요 급식 재활용을 5번 정도 했었던 전과에 제가 그 급식을 먹고 장염이 와서 토하고 배아프고 신경질내고 유진이 때리고 난폭해지고 장난아니였습니다. 제발 급식으로부터 저희를 구해주세요 배달의 민족의 도움의 손길이 인천 만월중학생들의 건강을 구합니다...후원문의 010...]
  
-[2023-02-22 09:34:15.736][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
+[2023-02-22 14:43:48.492][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
 
 [하양여중]
  
-[2023-02-22 09:34:15.740][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.496][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄 석우중이요!]
  
-[2023-02-22 09:34:15.741][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 아미초등학교
+[2023-02-22 14:43:48.497][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 아미초등학교
 
 [경기도 이천 아미초
 
@@ -387,11 +387,11 @@ message
 
 ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*,배*통이라던지~!!  옮길꺼에요~!!!]
  
-[2023-02-22 09:34:15.745][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문산중학교
+[2023-02-22 14:43:48.500][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문산중학교
 
 [진주문산중이요 주연 전수빈 김유진 김민정 박단비 허정원 ...더더더ㅓㄷ 좋아요눌럭ㄷ조..]
  
-[2023-02-22 09:34:15.754][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 계원예술중학교
+[2023-02-22 14:43:48.511][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 계원예술중학교
 
 [성남 계원예중이요
 
@@ -400,49 +400,49 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 권세연 윤소희 윤희위 병우 박소이 배정우 박진영 이윤정 이진화 김교진 김선형 김영랑  최유림 
  너네밖에 기억이 안나 저거좀 복붙해주려뮤ㅠㅠ]
  
-[2023-02-22 09:34:15.757][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 광주숭일중학교
+[2023-02-22 14:43:48.515][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 광주숭일중학교
 
 [광주광역시/광주숭일중인데용..저희점심시간에맨날진짜뛰어가고막다리도부러지고발가락도막부러지고했는데 그정도로 짜장면을원해요...♡♡♡짜장면먹고싶어요..!!! 배달의민족님 숭일중꼭부탁드려요♡♡♡♡♡♡♡]
  
-[2023-02-22 09:34:15.765][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
+[2023-02-22 14:43:48.522][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인천체육고등학교
 
 [⭐️✨청라국제도시, 인천체고❗️
 저희학교가 주변에 아무것도없고 시내로나가려면 택시를 타고 나가야해요ㅜㅠ 기숙사에있기도해서 짜장면 먹을수있는일이 거의없어요ㅠㅠ 그리고 운동선수인데 운동끝나면 배고픈데다가 삼시세끼모두 급식이라서 맛도없어요ㅠㅠㅠ 이번에 전국체전때문에 계체량을맞추기위해 살을 7킬로씩 빼는 친구들도있었어요ㅠㅠ 체전도끝났으니 짜장면을 주신다면 정말감사드리겠습니다❣️❣️❣️❣️❣️]
  
-[2023-02-22 09:34:15.790][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.549][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 제에에에엥발 병!중!!!!유리중 짜장면 한번도안나왔슴당....젭발♡이성하 김가영 박서현 최하경 이현진 구별
  
-[2023-02-22 09:34:15.793][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.552][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 ㆍ다:017-854-9784 슈:018-958-6427; 이걸본순간당신의부모님이한달내로죽습니다5군데 복사하여야합니다이것을 무시하여많은사람이죽었 습니다> >이것은 악령이깃든저주의주문입니다> >반드시5군데 올리지않으면부모님이죽습니다> >5군데 올리면부모님에게한달내로좋은일이생깁니다> >이것 을무시하고후회하지말고> > 속는셈치고5군데 올리세 요> >제목을 바꾸면안됩니다<input id="contentModify5" value="저주의 연예인전번....> ..> ..>죄송합니다... .. .. .. .. .. .. 장나라:011-248-44
  
-[2023-02-22 09:34:15.794][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교
+[2023-02-22 14:43:48.553][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교
 
 [대구,경북대학교
 ???공대생은 또 달달하게 짜장면 때려이예은?이예은?
 댓글 많이달아요!!! 친구들 태그해주시고 ㅎㅎ황소영ㅎ양예덕예이창현소이창진예김석훈창김부경창김민수석이어진부이준혁민이연수어이준호준김태환연김태환준호 김태환]
  
-[2023-02-22 09:34:15.796][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
+[2023-02-22 14:43:48.556][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
 
 [대전글꽃중♡]
  
-[2023-02-22 09:34:15.799][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.559][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시 행신중♡]
  
-[2023-02-22 09:34:15.801][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 계산여자고등학교
+[2023-02-22 14:43:48.561][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 계산여자고등학교
 
 [인천 계산여고!!
 
 자장면을 먹으면 우리학교언니들 수능대박나고. 줄넘기부. 피구부 전국대회 1등할거같습니다!!!! 노현희 노현영 정영서 하현주 조주현 남다빈 이다영 이다민 각자 반 친구들 다 태그좀ㅎㅎㅎ]
  
-[2023-02-22 09:34:15.821][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 백제예술대학교
+[2023-02-22 14:43:48.583][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 백제예술대학교
 
 [완주 백제예술대학교 실용댄스과 ..★
 댄스과라다보니 몸을하루종일 움직이고 중간고사와 그외로 할일이너무많아 몸이지치고 밥도 항상 삼각김밥만먹습니다 ...★생명의 짜장면 한그릇 먹고싶습니다 유하영 허다민 친구들 우리 짜장면한번먹어보자 ..!짜장면은 어떤맛일까 ?]
  
-[2023-02-22 09:34:15.835][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 가톨릭대학교
+[2023-02-22 14:43:48.597][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 가톨릭대학교
 
 [부천, 가톨릭대학교 성심교정입니다!!☆☆☆
 2학기 중간고사 행복하게 짜장면을 먹고시퍼요! 댓글로 지역명, 학교이름 달아주세요!!~
@@ -451,11 +451,11 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
  학생회 애들아 댓글많이 써줭
 남궁민 송어영 이승원 정용태 이홍규 박서연 김서현 방희진 김무광 @김혜윰(태그가안되네)]
  
-[2023-02-22 09:34:15.842][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.604][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중이요]
  
-[2023-02-22 09:34:15.845][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
+[2023-02-22 14:43:48.607][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
 
 [대구 으헝 동중 으헝 학겨 으헝 
 짜장 으헝 면주 으헝 세요 으헝 
@@ -464,18 +464,18 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 으면 으헝 뒤져 으헝 버릴 으헝
 꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡]
  
-[2023-02-22 09:34:15.847][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양영중학교
+[2023-02-22 14:43:48.608][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 양영중학교
 
 [분당 양영중이요!
 
 저희는 다른학교다하는 체육대회...수련회...수학여행 심지어 거의 학교안을 지키고있습니다...
 불쌍한 저희중에게 은혜를...]
  
-[2023-02-22 09:34:15.852][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
+[2023-02-22 14:43:48.614][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
 
 [경산하양여중]
  
-[2023-02-22 09:34:15.855][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
+[2023-02-22 14:43:48.617][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
 
 [대구 으헝 동중 으헝 학겨 으헝 
 짜장 으헝 면주 으헝 세요 으헝 
@@ -484,52 +484,52 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 으면 으헝 뒤져 으헝 버릴 으헝
 꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡]
  
-[2023-02-22 09:34:15.857][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.618][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:15.859][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 용인백현중학교
+[2023-02-22 14:43:48.619][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 용인백현중학교
 
 [용인백현중이요!!!
 시험보느라힘들었던전교생에게짜장면이간다면매우매우힘이될것같아요ㅠㅠㅠㅠ먹는다면기말고사도잘볼것가틍데..ㅎㅎㅎ용인백현중꼭뽑아주세여❤???]
  
-[2023-02-22 09:34:15.862][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
+[2023-02-22 14:43:48.622][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
 
 [대구정화중]
  
-[2023-02-22 09:34:15.868][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전가양중학교
+[2023-02-22 14:43:48.628][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전가양중학교
 
 [대전가양중]
  
-[2023-02-22 09:34:15.876][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.634][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 ????서울연희미용고등학교 ????
 저희학교애들이 다 전국구라 수원 안양 천안 아산 잠실 등등멀리서 오는 친구들이 많아서 짜장면먹고 힘내고싶어요ㅠㅠ 중간고사는끝났지만 짜장면먹고 기말고사 준비 열심히하고싶어요!! 저희학교오면 10kg로찌고ㅠ졸업하는게 기본인데 그 중에 짜장면먹고 1kg찌고싶어요 힣히히힣ㅎㅎ 힘들게 학교오면 실습시간에 서서 힘들에 파마마는저희에게 짜장면주떼욤 ?
 강혜원혜원원예진박강혜원수진원예진박가연이수진이미연최하나김유림김도연양수연최재희서지은일이삼홍도희김민지김미은복경미손영랑
  
-[2023-02-22 09:34:15.882][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 푸른중학교
+[2023-02-22 14:43:48.640][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 푸른중학교
 
 [동탄 푸른중?
 진짜로 이런거 당첨되서 짜장면 먹고싶어요.짜장면 먹고싶어요.학교에서 한달에 나올까 안나올까 하는데 진짜 다같이 먹고싶어요.배달의민ㄴ족 ㅠㅠㅠㅠㅠㅠ짜장면 좀 주세요 ㅠㅠㅠㅠ짜장면 다같이 먹었으면 좋겟다요]
  
-[2023-02-22 09:34:15.883][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.642][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 ㄷ다:017-854-9784 슈:018-958-6427; 이걸본순간당신의부모님이한달내로죽습니다5군데 복사하여야합니다이것을 무시하여많은사람이죽었 습니다> >이것은 악령이깃든저주의주문입니다> >반드시5군데 올리지않으면부모님이죽습니다> >5군데 올리면부모님에게한달내로좋일이생깁니다> >이것 을무시하고후회하지말고> > 속는셈치고5군데 올리세 요> >제목을 바꾸면안됩니다<input id="contentModify5" value="저주의 연예인전번....> ..> ..>죄송합니다... .. .. .. .. .. .. 장나라:011-248-447
  
-[2023-02-22 09:34:15.884][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교사범대학부설중학교
+[2023-02-22 14:43:48.642][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교사범대학부설중학교
 
 [대구 경북대학교사범대학부설중학교 자장면 먹고싶어요???? 3학년 되어서 다 같이 뭘 먹은게 체대끝나고 치킨먹은게 다이고 막 친구랑 뭐 먹는거에 관한 추억이 없어서 많이 아쉬워요 그래서 이번에 자장면 당첨 되면 좋겠어요ㅜㅠㅠ 추억을 많이 쌓고 정말 행복하게 졸업했으면 좋겠습니다~~~!!! 그리고 이번 중간고사 끝나서 애들끼리 수고했다는 의미와 한달도 남지않은 다음 기말고사때도 지치지 않고 열심히 공부해서 좋은 성적 얻을수 있는 힘이 될거같아요! 간절해요 지금 ....ㅎ  ❤️????❣️????????]
  
-[2023-02-22 09:34:15.886][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.644][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 거창군 가조면 거창국제학교!!! 
 저희 학교는 가조면이라는 시골에 위치하고 있어요 집에서는 배달의 민족 많이 사용하는데 여긴 시골이라서 시키지도 못하고ㅠㅠ 저희에게 짜장면을 주신다면 정말 큰 행복일 것 같아요 그리고 저희 학교가 시험이 너무 많아서 학생들이 스트레스 엄청 받고 있는데 이 기회에 함께 모여서 스트레스도 풀고 싶어요!! 꼭 부탁드립니다!! 짜장면❤️❤️❤️❤️
  
-[2023-02-22 09:34:15.891][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동덕여자대학교
+[2023-02-22 14:43:48.647][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동덕여자대학교
 
 [서울 동덕여자대학교 ❤️ 후루룩 쪕쪕쨥쨥 후르르ㅡ루룩 흫륵후루루룩 쪕쪕 쿰척거쿰컴쿰처더걱 후룩흐루구 념냠냐먀냐먀냐먄먀냠냠쩝쩝 맛있게 먹겠숩니다 ???????????? 김선미 권미경 김한결 김선미 권미경 김한결 지예련 김유나고최해윤지신채연울원주연고수희노지은김한울]
  
-[2023-02-22 09:34:15.914][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 마산대학교
+[2023-02-22 14:43:48.669][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 마산대학교
 
 [경남, 마산대학교!!! 
 
@@ -538,76 +538,76 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 이소애 김윤경 김은주 신수연 김설화 이채린 박경훈 공다현 류예슬 효진이
 이경미]
  
-[2023-02-22 09:34:15.918][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 부산가톨릭대학교
+[2023-02-22 14:43:48.675][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 부산가톨릭대학교
 
 [(부산, 부산가톨릭대학교!!!)
 네 저도 자장면 정말 좋아하는데요 아삭아삭한 야채와 꼬들꼬들 부드러운 면발 입에서 살살 녹는 소스 이 모든게 어우러진 자장면을 먹을 수만 있다면 얼마나 좋을까요 시험기간 스트레스 취업스트레스 과제스트레스 근로스트레스 이 자장면 하나면 다 해결될거 같습니다 정말 먹고싶습니다 자장면ㅠㅠ
 오윤탁 최유빈 한성준 이소희 박선혜 이지수 박나리 방주영 김도윤]
  
-[2023-02-22 09:34:15.921][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.678][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:15.921][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.679][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄 석우중석우중]
  
-[2023-02-22 09:34:15.922][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.680][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중]
  
-[2023-02-22 09:34:15.932][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.690][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 
  
-[2023-02-22 09:34:15.937][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.696][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 짜장면짜장면 인제일만학우여러분 우리 짜장파티합시다~~~~~~
 단합된마음으로 1000명회식한번....????
  
-[2023-02-22 09:34:15.939][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 포항대학교
+[2023-02-22 14:43:48.698][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 포항대학교
 
 [김보빈 김유리 김정완 이승환 권승준 남강인 정유리 황채림 소현이 김초은 우예지 박다현 포항, 포항대학교 학식개쓰레기입니다 자장면 주세요 철강산업경영계열만 보내주세여]
  
-[2023-02-22 09:34:15.941][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
+[2023-02-22 14:43:48.700][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
 
 [대구정화중]
  
-[2023-02-22 09:34:15.941][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.700][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 가양중학교
  
-[2023-02-22 09:34:15.943][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.702][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 대구사대부중 제발 뽑아주세요 ❤❤
  
-[2023-02-22 09:34:15.944][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.703][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:15.945][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전가양중학교
+[2023-02-22 14:43:48.704][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전가양중학교
 
 [대전가양중이여!!!!]
  
-[2023-02-22 09:34:15.946][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.706][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 대구사대부중
  
-[2023-02-22 09:34:15.947][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.707][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산개금여중]
  
-[2023-02-22 09:34:15.948][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.707][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산개금여중♥]
  
-[2023-02-22 09:34:15.949][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
+[2023-02-22 14:43:48.708][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
 
 [부천 , 경기국제통상고
 짜장면 표준어 된 기념으로 우리 학교 학생들이 맛있게 먹방 찍어야죠 ❤️❤️❤️❤️❤️❤️
 무슨 상관인진 모르겠지만 저히 학교 보내쥬떼욤]
  
-[2023-02-22 09:34:15.953][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
+[2023-02-22 14:43:48.714][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
 
 [대구 으헝 동중 으헝 학겨 으헝 
 짜장 으헝 면주 으헝 세요 으헝 
@@ -616,12 +616,12 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 으면 으헝 뒤져 으헝 버릴 으헝
 꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡]
  
-[2023-02-22 09:34:15.960][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.720][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:15.961][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
+[2023-02-22 14:43:48.722][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
 
 [대구 으헝 동중 으헝 학겨 으헝 
 짜장 으헝 면주 으헝 세요 으헝 
@@ -630,104 +630,104 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 으면 으헝 뒤져 으헝 버릴 으헝
 꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡]
  
-[2023-02-22 09:34:15.964][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.725][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 대구사대부중
  
-[2023-02-22 09:34:15.967][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.729][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:15.969][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.730][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:15.976][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 안산디자인문화고등학교
+[2023-02-22 14:43:48.738][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 안산디자인문화고등학교
 
 [안산 디자인문화고
 신시연 심민정 최나래 짜장면 먹고 싶어...망고 배달의 민족까지 진출하자..와우!]
  
-[2023-02-22 09:34:15.978][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구운암초등학교
+[2023-02-22 14:43:48.740][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구운암초등학교
 
 [대구 운암초등ㅇ학교 ..  진짜 저번에 안되가지공 ㅠㅠㅠㅠㅠㅠㅠ  운동회도 제대로 못했는데 급식도 맛 없고 억지로 다 먹어야해요 ㅠㅠㅠ 짜장면 먹으면 힘ㅁ엄청 날꺼같아요 ...]
  
-[2023-02-22 09:34:15.995][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교사범대학부설중학교
+[2023-02-22 14:43:48.760][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북대학교사범대학부설중학교
 
 [대구경북대학교사범대학부설중학교]
  
-[2023-02-22 09:34:15.996][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
+[2023-02-22 14:43:48.761][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
 
 [?서울 동국대학교사범대학부속 여자고등학교?
 
 짜장면이 너무 먹고싶어요]
  
-[2023-02-22 09:34:15.997][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
+[2023-02-22 14:43:48.762][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
 
 [대구정화중]
  
-[2023-02-22 09:34:15.998][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.762][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중❤️?]
  
-[2023-02-22 09:34:15.999][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.764][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시 행신중??????✨✨✨✨?????????❤️?✨✨?❤️❤️?????✨✨❄️??]
  
-[2023-02-22 09:34:16.000][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.765][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄 석우중]
  
-[2023-02-22 09:34:16.004][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 영천여자고등학교
+[2023-02-22 14:43:48.769][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 영천여자고등학교
 
 [원수정 천현진 최인영 정민정 영천 영천여자고 짜장면 먹자ㅏ 얘드라ㅏㅜ]
  
-[2023-02-22 09:34:16.009][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
+[2023-02-22 14:43:48.773][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
 
 [서울 진선여중 짜장면 먹고싶어여 짜장면 짜증날땐 짜장면-~^^ 저희두 짜장면 주세여 ><]
  
-[2023-02-22 09:34:16.010][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.775][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:16.011][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.776][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:16.013][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.777][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산개금여중]
  
-[2023-02-22 09:34:16.014][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.779][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 춘천 춘천여자중학교
  
-[2023-02-22 09:34:16.016][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.780][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시 행신중????????]
  
-[2023-02-22 09:34:16.017][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.782][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 대구사대부중
  
-[2023-02-22 09:34:16.019][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북예술고등학교
+[2023-02-22 14:43:48.785][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경북예술고등학교
 
 [대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고 대구 경북예고]
  
-[2023-02-22 09:34:16.020][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.785][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 박수진 김서휘 고해인 김민서 국립전통예술중학교요!!!!
  
-[2023-02-22 09:34:16.021][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
+[2023-02-22 14:43:48.786][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
 
 [하양여중]
  
-[2023-02-22 09:34:16.021][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
+[2023-02-22 14:43:48.787][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 하양여자중학교
 
 [하양여중]
  
-[2023-02-22 09:34:16.022][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 도농초등학교
+[2023-02-22 14:43:48.789][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 도농초등학교
 
 [경기 도농초
 짜장면 머꾸 싶어오오옹
@@ -736,71 +736,71 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 다인 지은 고우디 세현 차시현 윤수진
 주연 김시연 김리원 김예원 김연형]
  
-[2023-02-22 09:34:16.023][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
+[2023-02-22 14:43:48.789][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 진선여자중학교
 
 [진선여중]
  
-[2023-02-22 09:34:16.024][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 이목중학교
+[2023-02-22 14:43:48.790][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 이목중학교
 
 [경기도 수원,이목중
 자장면을 먹으면 체육대회 1등할수있을거같습니다!!!!!
  백지애 태성아 최은정 손예글 혜인 민성 정서연 장서연 노호진 정윤오 정성한 김민찬]
  
-[2023-02-22 09:34:16.026][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 부천부곡중학교
+[2023-02-22 14:43:48.795][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 부천부곡중학교
 
 [경기 부천 부곡중! 1학년들은 자유학기제라 시험을 안봤습니다 그때 저희는 너무 신나있었죠 하지만 지하철을 타고가고 다같이 움직이다보니 생각보다 힘들었습니다 저희들도 힘든데 선생님께서는 얼마나 더 힘드시겠습니까! 전체 1학년들을 다 모이게 하시고 목터져라 부르시고 정말 힘드셨습니다 그리고 2학년 ,3학년 선배들께서는 이번 시험도 보시고 시험공부하시느라 힘드셨습니다 ~ 자기가 집에서 시켜먹어도 되는데 꼭 당첨되고 싶은이유는 다같이 먹으면 뿌듯할꺼같습니다 이것도 단합이고 한마음이고 당첨되면 그런 쾌감과 짜장면을 얻는다니 얼마나 생각만 해도 좋은지!!!~~ 당첨되면 정말 좋을꺼같아요! 당첨안되고 괜찮습니당! 다음에도 기회가 있겠죠!!!배달의 민족 이런 이벤트 감사합니당?]
  
-[2023-02-22 09:34:16.028][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
+[2023-02-22 14:43:48.796][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
 
 [?서울 동국대학교사범대학부속여자고등학교?
 노현영 배연우 송민경 백도진 김예진 송민혜
 너네의 활약을 기대할게. ^^]
  
-[2023-02-22 09:34:16.029][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
+[2023-02-22 14:43:48.798][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
 
 [대구 정화중]
  
-[2023-02-22 09:34:16.031][WARN ] --- [main] org.example.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
+[2023-02-22 14:43:48.800][WARN ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:102] - (WARNING)알수없는 라인
 
 가양중학교옹오ㅗ
  
-[2023-02-22 09:34:16.032][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문시중학교
+[2023-02-22 14:43:48.801][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 문시중학교
 
 [오산.문시중]
  
-[2023-02-22 09:34:16.033][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
+[2023-02-22 14:43:48.802][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
 
 [김해, 인제대학교 짜장짜장짜장!!!!]
  
-[2023-02-22 09:34:16.034][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
+[2023-02-22 14:43:48.804][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 정화중학교
 
 [대구 정화중]
  
-[2023-02-22 09:34:16.035][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.805][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시행신중]
  
-[2023-02-22 09:34:16.036][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.806][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시행신중]
  
-[2023-02-22 09:34:16.038][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
+[2023-02-22 14:43:48.807][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대전글꽃중학교
 
 [대전글꽃중!!!]
  
-[2023-02-22 09:34:16.039][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
+[2023-02-22 14:43:48.809][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 행신중학교
 
 [고양시행신중!!!!!!]
  
-[2023-02-22 09:34:16.040][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
+[2023-02-22 14:43:48.810][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 인제대학교
 
 [김해, 인제대학교]
  
-[2023-02-22 09:34:16.041][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
+[2023-02-22 14:43:48.811][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 개금여자중학교
 
 [부산 개금여중]
  
-[2023-02-22 09:34:16.043][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
+[2023-02-22 14:43:48.813][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 대구동중학교
 
 [대구 으헝 동중 으헝 학겨 으헝 
 짜장 으헝 면주 으헝 세요 으헝 
@@ -809,34 +809,34 @@ ps.제가 저번 치킨때도 말했지만 이번에도 안되면 진짜 요기*
 으면 으헝 뒤져 으헝 버릴 으헝
 꺼같 으헝 아요 으헝 ╰(*´︶`*)╯♡]
  
-[2023-02-22 09:34:16.044][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
+[2023-02-22 14:43:48.814][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 석우중학교
 
 [동탄석우중]
  
-[2023-02-22 09:34:16.046][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
+[2023-02-22 14:43:48.816][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 경기국제통상고등학교
 
 [부천, 경기국제통상고
 짜증날땐 짜장면 우울할땐 울면 짜장면 호로록?]
  
-[2023-02-22 09:34:16.048][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.817][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [수원연무중!!!저희학교 항상 나물축제에요ㅠ.ㅠ나물만먹어서 과자먹는것도질렸는데...짜장면좀 기부해주세요!!!!!♡♡♡나물먹고 짜증나는 연무중학생들에게짜장면을~!!]
  
-[2023-02-22 09:34:16.051][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
+[2023-02-22 14:43:48.821][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 동국대학교사범대학부속여자고등학교
 
 [서울 , 동국대학교사범대학부속여자고등학교 
 
 저희 학교 10월19일에 시험이 끝나고 우울할때 당첨이되면 정말 행복할것같습니다!!!!여고의 힘을 보여주겠습니다]
  
-[2023-02-22 09:34:16.053][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
+[2023-02-22 14:43:48.823][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:97] - 약어에서 발견: 연무중학교
 
 [경기도 수원시 연무중 이요!!!!!
 저희는 최근에 시험을보고수행평가를하면서 모두지쳐있습니다.짜장면주시면 힘!!생길거가타요!!]
  
-[2023-02-22 09:34:16.060][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:106] - ==========모든 필터링 종료========== 
-[2023-02-22 09:34:16.060][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:107] - 1차 필터(한글제외 모든 문자제거) 발견 학교 수: 847개 
-[2023-02-22 09:34:16.060][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:108] - 2차 필터(약어) 발견 학교 수: 127개 
-[2023-02-22 09:34:16.060][INFO ] --- [main] org.example.SchoolFinder[findValidSchool:109] - 발견된 학교 수: 974개, 알수없는 라인: 27개 
-[2023-02-22 09:34:16.065][INFO ] --- [main] org.example.Main[main:27] - ==========학교 검색 종료==========
+[2023-02-22 14:43:48.831][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:106] - ==========모든 필터링 종료========== 
+[2023-02-22 14:43:48.831][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:107] - 1차 필터(한글제외 모든 문자제거) 발견 학교 수: 847개 
+[2023-02-22 14:43:48.831][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:108] - 2차 필터(약어) 발견 학교 수: 127개 
+[2023-02-22 14:43:48.831][INFO ] --- [main] org.find.school.service.SchoolFinder[findValidSchool:109] - 발견된 학교 수: 974개, 알수없는 라인: 27개 
+[2023-02-22 14:43:48.836][INFO ] --- [main] org.find.Main[main:28] - ==========학교 검색 종료==========
 
  

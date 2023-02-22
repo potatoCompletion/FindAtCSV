@@ -27,7 +27,7 @@
     </appender>
 
 
-    <logger name="org.example" level="DEBUG" additivity="false">
+    <logger name="org.find" level="DEBUG" additivity="false">
         <appender-ref ref="FILE" />
     </logger>
 

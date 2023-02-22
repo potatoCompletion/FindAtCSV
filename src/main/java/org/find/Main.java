@@ -1,6 +1,7 @@
-package org.example;
+package org.find;
 
 import com.opencsv.exceptions.CsvException;
+import org.find.school.service.SchoolFinder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,9 +1,9 @@
-package org.example;
+package org.find.school.service;
 
 import com.opencsv.CSVReader;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.exceptions.CsvException;
-import org.example.dto.School;
+import org.find.school.dto.School;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

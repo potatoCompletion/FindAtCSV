@@ -1,4 +1,4 @@
-package org.example.dto;
+package org.find.school.dto;
 
 import com.opencsv.bean.CsvBindByName;
 
