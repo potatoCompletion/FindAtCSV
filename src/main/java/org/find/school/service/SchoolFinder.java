@@ -64,11 +64,12 @@ public class SchoolFinder {
                 foundSchool = filteringSchool(filteredLine, schools);
                 if (foundSchool.equals(DUPLICATED)) {
                     log.info("중복검출 라인:\n\n{}\n", String.join("", line));
+                    continue;
                 }
-                if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
+                if (!foundSchool.isBlank()) {
                     foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
                 }
-                if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
+                if (!foundSchool.isBlank()) {
                     schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
                     firstFilteredCount++;
@@ -97,11 +98,12 @@ public class SchoolFinder {
             foundSchool = filteringSchool(filteredLine, filteredSchools);
             if (foundSchool.equals(DUPLICATED)) {
                 log.info("중복검출 라인:\n\n{}\n", String.join("", line));
+                continue;
             }
-            if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
+            if (!foundSchool.isBlank()) {
                 foundSchool = validSchoolFilter(foundSchool); // 현재 이상이 있는 학교인지 검증 (학교명변경 등)
             }
-            if (!foundSchool.isBlank() && !foundSchool.equals(DUPLICATED)) {
+            if (!foundSchool.isBlank()) {
                 schoolCountMap.merge(foundSchool, 1, Integer::sum);
 
                 log.info("약어에서 발견: {}\n\n{}\n", foundSchool, line);
