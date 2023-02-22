@@ -17,6 +17,7 @@ public class SchoolFinder {
     private final List<School> schools;
     private final List<School> filteredSchools;
     private final List<String> addressList;
+    private int avrageFindIndex = 0;
 
     public SchoolFinder(String sourceFilePath, String schoolDataFilePath, String locationDataFilePath) throws IOException, CsvException {
         // 소스파일 세팅 (comments.csv)
@@ -30,7 +31,7 @@ public class SchoolFinder {
                 .parse();
         Comparator<School> desc = (s1, s2) -> Integer.compare(s2.getName().length(), s1.getName().length());
         schools.sort(desc);
-        filteredSchools = getFilteredSchools(schools);  // 약어를 사용한 댓글들을 검출하기 위한 기준 학교 데이터
+        filteredSchools = getFilteredSchools(schools);  // 약어를 사용한 댓글들을 검출하기 위한 학교데이터 약어버전
 
         // 시, 군 데이터 세팅 (전국행정구역데이터(시,군).csv)
         CSVReader addressDataCsvReader = new CSVReader(new FileReader(locationDataFilePath));
@@ -171,6 +172,7 @@ public class SchoolFinder {
                 if (line.contains(school.getName().replace(address, ""))) {
                     int index = schoolList.indexOf(school);
                     foundMap.put(line.indexOf(school.getName().replace(address, "")), schools.get(index).getName());
+//                    avrageFindIndex = updateAverageIndex()
                     line = line.replace(school.getName().replace(address, ""), "");
                 }
             }
@@ -248,5 +250,9 @@ public class SchoolFinder {
         }
 
         return schoolName;
+    }
+
+    private int updateAverageIndex(int index, int length) {
+        return index / length * 100;
     }
 }
