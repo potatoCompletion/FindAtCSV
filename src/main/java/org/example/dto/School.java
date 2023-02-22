@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dto;
 
 import com.opencsv.bean.CsvBindByName;
 
@@ -20,6 +20,4 @@ public class School {
     public String getAddress() {
         return address;
     }
-
-    public void setName(String name) { this.name = name; }
 }

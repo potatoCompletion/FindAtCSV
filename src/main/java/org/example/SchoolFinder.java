@@ -3,6 +3,7 @@ package org.example;
 import com.opencsv.CSVReader;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.exceptions.CsvException;
+import org.example.dto.School;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
