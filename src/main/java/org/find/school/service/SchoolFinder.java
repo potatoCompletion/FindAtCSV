@@ -212,7 +212,8 @@ public class SchoolFinder {
         }
 
         // 중복검출(2개 이상) 시 저장 후 판단 보류
-        if (foundSchoolMap.size() > 1) {
+        int normalFound = 1;
+        if (foundSchoolMap.size() > normalFound) {
             log.info("!!!!!!!!!!!!!중복검출 데이터 감지 판단 보류!!!!!!!!!!!!!\n");
             holdSchoolResults.add(foundSchoolMap);  // 보류된 판단은 모든 검출이 끝나고 평균값에 의거해 처리한다
 
